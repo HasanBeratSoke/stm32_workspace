@@ -1,2 +1,4 @@
-# stm32_workspace
- about embedded software learned in internship
+
+ ---
+ ## [MULTICHANNEL ADC POLLING](https://github.com/HasanBeratSoke/stm32_workspace/tree/main/adc_multi_read) 
+* reading 3 different sensor by Multichannel ADC using polling technique on stm32f0. Also, applied moving average for noised data.
