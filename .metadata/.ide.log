@@ -2701,3 +2701,1228 @@
 2022-09-20 08:36:25,561 [INFO] IPUIPlugin:79 - create IPUIPlugin
 2022-09-20 08:36:25,562 [INFO] IPUIPlugin:79 - create IPUIPlugin
 2022-09-20 08:36:25,847 [INFO] OpenFileManager:327 - Restore cursor
+2022-09-20 09:07:13,685 [INFO] Activator:177 - 
+
+
+2022-09-20 09:07:13,686 [INFO] Activator:178 - !SESSION log4j initialized
+2022-09-20 09:07:40,458 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-09-20 09:07:40,460 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-09-20 09:07:40,463 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-09-20 09:08:24,555 [INFO] McuFinderGlobals:44 - Set McuFinder mode to 2 (CubeIDE integrated)
+2022-09-20 09:08:24,681 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420
+2022-09-20 09:08:24,697 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/mcu/
+2022-09-20 09:08:24,698 [INFO] ApiDb:269 - Set plugin database path to: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/boardmanager/
+2022-09-20 09:08:24,700 [WARN] ApiDb:254 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/mcufinder/images/
+2022-09-20 09:08:24,716 [INFO] ApiDb:249 - Set database path to: C:\Users\hasan\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-20 09:08:24,718 [INFO] DbMcusAds:124 - Set database path to: C:\Users\hasan\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-20 09:08:24,726 [INFO] CrossReferenceDbSqlite:201 - Set database path to: C:\Users\hasan\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-20 09:08:24,839 [INFO] RulesReader:61 - Compatibility file has been processed (282 Rules)
+2022-09-20 09:08:24,941 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/mcu/
+2022-09-20 09:08:24,941 [INFO] ApiDb:269 - Set plugin database path to: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/boardmanager/
+2022-09-20 09:08:24,942 [INFO] ApiDb:256 - Set plugin images path to: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/mcufinder/images/
+2022-09-20 09:08:24,942 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\hasan\.stmcufinder\plugins\mcufinder/ => C:\Users\hasan\.stmcufinder\plugins\mcufinder
+2022-09-20 09:08:24,943 [INFO] ApiDb:249 - Set database path to: C:\Users\hasan\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-20 09:08:24,943 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\hasan\.stmcufinder\plugins\mcufinder/ => C:\Users\hasan\.stmcufinder\plugins\mcufinder
+2022-09-20 09:08:24,944 [INFO] DbMcusAds:124 - Set database path to: C:\Users\hasan\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-20 09:08:24,945 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\hasan\.stmcufinder\plugins\mcufinder/ => C:\Users\hasan\.stmcufinder\plugins\mcufinder
+2022-09-20 09:08:24,946 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\hasan\.stmcufinder\plugins\mcufinder/ => C:\Users\hasan\.stmcufinder\plugins\mcufinder
+2022-09-20 09:08:24,946 [INFO] CrossReferenceDbSqlite:201 - Set database path to: C:\Users\hasan\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-20 09:08:25,041 [INFO] MainPanel:242 - HeapMemory: 398458880
+2022-09-20 09:08:25,137 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/mcu/
+2022-09-20 09:08:25,137 [INFO] ApiDb:269 - Set plugin database path to: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/boardmanager/
+2022-09-20 09:08:25,138 [INFO] ApiDb:256 - Set plugin images path to: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/mcufinder/images/
+2022-09-20 09:08:25,138 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\hasan\.stmcufinder\plugins\mcufinder/ => C:\Users\hasan\.stmcufinder\plugins\mcufinder
+2022-09-20 09:08:25,138 [INFO] ApiDb:249 - Set database path to: C:\Users\hasan\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-20 09:08:25,138 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\hasan\.stmcufinder\plugins\mcufinder/ => C:\Users\hasan\.stmcufinder\plugins\mcufinder
+2022-09-20 09:08:25,139 [INFO] DbMcusAds:124 - Set database path to: C:\Users\hasan\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-20 09:08:25,139 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\hasan\.stmcufinder\plugins\mcufinder/ => C:\Users\hasan\.stmcufinder\plugins\mcufinder
+2022-09-20 09:08:25,139 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\hasan\.stmcufinder\plugins\mcufinder/ => C:\Users\hasan\.stmcufinder\plugins\mcufinder
+2022-09-20 09:08:25,139 [INFO] CrossReferenceDbSqlite:201 - Set database path to: C:\Users\hasan\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-20 09:08:25,161 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420
+2022-09-20 09:08:25,163 [INFO] PluginManage:193 - Search for loadable plugins [exclusion list=, ]
+2022-09-20 09:08:25,165 [INFO] PluginManage:307 - Check plugin analytics
+2022-09-20 09:08:25,357 [INFO] AnalyticsPlugin:262 - Accepted Software Licenses: 
+2022-09-20 09:08:25,358 [INFO] AnalyticsPlugin:264 - Accepted CMSIS Pack Licenses: 
+2022-09-20 09:08:25,358 [INFO] AnalyticsPlugin:266 - Accepted Firmware Licenses: 
+2022-09-20 09:08:25,369 [INFO] PluginManage:356 - Loaded plugin analytics (category:tool,tabindex:-1)
+2022-09-20 09:08:25,370 [INFO] PluginManage:307 - Check plugin cadmodel
+2022-09-20 09:08:25,373 [INFO] CADModel:65 - Init CAD model plugin
+2022-09-20 09:08:25,373 [INFO] PluginManage:356 - Loaded plugin cadmodel (category:power,tabindex:5)
+2022-09-20 09:08:25,373 [INFO] PluginManage:307 - Check plugin clock
+2022-09-20 09:08:25,382 [INFO] PluginManage:356 - Loaded plugin clock (category:base,tabindex:2)
+2022-09-20 09:08:25,383 [INFO] PluginManage:307 - Check plugin ddr
+2022-09-20 09:08:25,384 [INFO] PluginManage:356 - Loaded plugin ddr (category:tool,tabindex:6)
+2022-09-20 09:08:25,384 [INFO] PluginManage:307 - Check plugin filemanager
+2022-09-20 09:08:25,558 [INFO] PluginManage:356 - Loaded plugin filemanager (category:base,tabindex:10)
+2022-09-20 09:08:25,559 [INFO] PluginManage:307 - Check plugin ipmanager
+2022-09-20 09:08:25,568 [INFO] PluginManage:356 - Loaded plugin ipmanager (category:base,tabindex:5)
+2022-09-20 09:08:25,568 [INFO] PluginManage:307 - Check plugin lpbam
+2022-09-20 09:08:25,578 [INFO] PluginManage:356 - Loaded plugin lpbam (category:base,tabindex:0)
+2022-09-20 09:08:25,579 [INFO] PluginManage:307 - Check plugin pinoutandconfiguration
+2022-09-20 09:08:25,589 [INFO] PluginManage:356 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2022-09-20 09:08:25,589 [INFO] PluginManage:307 - Check plugin pinoutconfig
+2022-09-20 09:08:25,624 [INFO] PluginManage:356 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2022-09-20 09:08:25,625 [INFO] PluginManage:307 - Check plugin power
+2022-09-20 09:08:25,635 [INFO] PluginManage:356 - Loaded plugin power (category:power,tabindex:4)
+2022-09-20 09:08:25,636 [INFO] PluginManage:307 - Check plugin projectmanager
+2022-09-20 09:08:25,658 [INFO] PluginManage:356 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2022-09-20 09:08:25,658 [INFO] PluginManage:307 - Check plugin thirdparty
+2022-09-20 09:08:25,810 [WARN] IntegrityCheckThread:82 - waiting for thirdparty lock release [integrity check]
+2022-09-20 09:08:25,811 [INFO] PluginManage:356 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2022-09-20 09:08:25,811 [INFO] IntegrityCheckThread:84 - entering critical section [integrity check]
+2022-09-20 09:08:25,812 [INFO] PluginManage:307 - Check plugin tools
+2022-09-20 09:08:25,814 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2022-09-20 09:08:25,815 [INFO] PluginManage:356 - Loaded plugin tools (category:base,tabindex:7)
+2022-09-20 09:08:25,815 [INFO] PluginManage:307 - Check plugin tutovideos
+2022-09-20 09:08:26,003 [INFO] PluginManage:356 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2022-09-20 09:08:26,004 [INFO] PluginManage:307 - Check plugin updater
+2022-09-20 09:08:26,021 [INFO] PluginManage:356 - Loaded plugin updater (category:base,tabindex:12)
+2022-09-20 09:08:26,022 [INFO] PluginManage:280 - PluginManage : Loaded plugins [15]
+2022-09-20 09:08:26,322 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2022-09-20 09:08:26,393 [INFO] CADModel:98 - CPN selected for project level
+2022-09-20 09:08:26,406 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,406 [INFO] PluginManager:217 - loadIPPluginJar : add adc
+2022-09-20 09:08:26,411 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,412 [INFO] PluginManager:217 - loadIPPluginJar : add aes
+2022-09-20 09:08:26,415 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,415 [INFO] PluginManager:217 - loadIPPluginJar : add can
+2022-09-20 09:08:26,416 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,416 [INFO] PluginManager:217 - loadIPPluginJar : add comp
+2022-09-20 09:08:26,418 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,419 [INFO] PluginManager:217 - loadIPPluginJar : add cryp
+2022-09-20 09:08:26,421 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,421 [INFO] PluginManager:217 - loadIPPluginJar : add dfsdm
+2022-09-20 09:08:26,426 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,427 [INFO] PluginManager:217 - loadIPPluginJar : add dma
+2022-09-20 09:08:26,431 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,431 [INFO] PluginManager:217 - loadIPPluginJar : add dma3
+2022-09-20 09:08:26,433 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,433 [INFO] PluginManager:217 - loadIPPluginJar : add fatfs
+2022-09-20 09:08:26,438 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,438 [INFO] PluginManager:217 - loadIPPluginJar : add fmc
+2022-09-20 09:08:26,444 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,444 [INFO] PluginManager:217 - loadIPPluginJar : add freertos
+2022-09-20 09:08:26,445 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,445 [INFO] PluginManager:217 - loadIPPluginJar : add genericplugin
+2022-09-20 09:08:26,447 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,447 [INFO] PluginManager:217 - loadIPPluginJar : add gfxmmu
+2022-09-20 09:08:26,452 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,452 [INFO] PluginManager:217 - loadIPPluginJar : add gic
+2022-09-20 09:08:26,456 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,456 [INFO] PluginManager:217 - loadIPPluginJar : add gpio
+2022-09-20 09:08:26,459 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,460 [INFO] PluginManager:217 - loadIPPluginJar : add gtzc
+2022-09-20 09:08:26,462 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,462 [INFO] PluginManager:217 - loadIPPluginJar : add hash
+2022-09-20 09:08:26,465 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,465 [INFO] PluginManager:217 - loadIPPluginJar : add i2c
+2022-09-20 09:08:26,467 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,467 [INFO] PluginManager:217 - loadIPPluginJar : add i2s
+2022-09-20 09:08:26,470 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,471 [INFO] PluginManager:217 - loadIPPluginJar : add ipddr
+2022-09-20 09:08:26,478 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,478 [INFO] PluginManager:217 - loadIPPluginJar : add linkedlist
+2022-09-20 09:08:26,481 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,481 [INFO] PluginManager:217 - loadIPPluginJar : add lorawan
+2022-09-20 09:08:26,483 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,483 [INFO] PluginManager:217 - loadIPPluginJar : add ltdc
+2022-09-20 09:08:26,488 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,488 [INFO] PluginManager:217 - loadIPPluginJar : add mdma
+2022-09-20 09:08:26,491 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,491 [INFO] PluginManager:217 - loadIPPluginJar : add nvic
+2022-09-20 09:08:26,494 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,494 [INFO] PluginManager:217 - loadIPPluginJar : add opamp
+2022-09-20 09:08:26,497 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,497 [INFO] PluginManager:217 - loadIPPluginJar : add openamp
+2022-09-20 09:08:26,502 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,502 [INFO] PluginManager:217 - loadIPPluginJar : add pdm2pcm
+2022-09-20 09:08:26,509 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,515 [INFO] PluginManager:217 - loadIPPluginJar : add plateformsettings
+2022-09-20 09:08:26,518 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,518 [INFO] PluginManager:217 - loadIPPluginJar : add quadspi
+2022-09-20 09:08:26,521 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,522 [INFO] PluginManager:217 - loadIPPluginJar : add resmgrutility
+2022-09-20 09:08:26,525 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,526 [INFO] PluginManager:217 - loadIPPluginJar : add sai
+2022-09-20 09:08:26,528 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,529 [INFO] PluginManager:217 - loadIPPluginJar : add spi
+2022-09-20 09:08:26,534 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,534 [INFO] PluginManager:217 - loadIPPluginJar : add stm32_wpan
+2022-09-20 09:08:26,536 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,536 [INFO] PluginManager:217 - loadIPPluginJar : add tim
+2022-09-20 09:08:26,539 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,539 [INFO] PluginManager:217 - loadIPPluginJar : add touchsensing
+2022-09-20 09:08:26,541 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,541 [INFO] PluginManager:217 - loadIPPluginJar : add tracer_emb
+2022-09-20 09:08:26,543 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,543 [INFO] PluginManager:217 - loadIPPluginJar : add ts
+2022-09-20 09:08:26,545 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,545 [INFO] PluginManager:217 - loadIPPluginJar : add tsc
+2022-09-20 09:08:26,547 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,547 [INFO] PluginManager:217 - loadIPPluginJar : add ucpd
+2022-09-20 09:08:26,549 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,549 [INFO] PluginManager:217 - loadIPPluginJar : add usart
+2022-09-20 09:08:26,552 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:08:26,552 [INFO] PluginManager:217 - loadIPPluginJar : add usbx
+2022-09-20 09:08:26,898 [FATAL] Updater:301 - Updater called before beeing initialized
+2022-09-20 09:08:27,037 [FATAL] Updater:301 - Updater called before beeing initialized
+2022-09-20 09:08:27,047 [INFO] DbMcusAds:52 - JSON generation date=Thu Sep 30 09:55:09 TRT 2021 (1632984909247)
+2022-09-20 09:08:27,047 [FATAL] Updater:301 - Updater called before beeing initialized
+2022-09-20 09:08:27,085 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2022-09-20 09:08:27,244 [FATAL] Updater:301 - Updater called before beeing initialized
+2022-09-20 09:08:27,246 [FATAL] Updater:301 - Updater called before beeing initialized
+2022-09-20 09:08:27,246 [FATAL] Updater:301 - Updater called before beeing initialized
+2022-09-20 09:08:27,246 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2022-09-20 09:08:27,248 [FATAL] Updater:301 - Updater called before beeing initialized
+2022-09-20 09:08:27,314 [ERROR] Updater:1105 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2022-09-20 09:08:27,339 [INFO] Updater:1041 - Updater Version found : 6.6.1
+2022-09-20 09:08:27,356 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420
+2022-09-20 09:08:27,726 [INFO] MainUpdater:2768 - connection check result : 10
+2022-09-20 09:08:27,728 [INFO] MainUpdater:280 - Updater Check For Update Now.
+2022-09-20 09:08:27,729 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.60
+2022-09-20 09:08:27,907 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2022-09-20 09:08:27,951 [INFO] MainUpdater:2768 - connection check result : 10
+2022-09-20 09:08:28,302 [INFO] McuFinderGlobals:57 - Set McuFinderConnectedMode to true
+2022-09-20 09:08:28,318 [INFO] MultiScanPanel:195 - Auto-refresh data requested => check proxy status ongoing
+2022-09-20 09:08:28,324 [INFO] FinderPluginLoader:92 - Searching for filters in installed packs
+2022-09-20 09:08:28,436 [INFO] ApiDb:576 - Connected to CubeFinder SQLite database (C:\Users\hasan\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2022-09-20 09:08:28,463 [INFO] ApiDb:663 - CubeFinder database Data Model version=2.1
+2022-09-20 09:08:28,464 [INFO] ApiDb:664 - CubeFinder database Configuration version=3.0.32
+2022-09-20 09:08:28,464 [INFO] ApiDb:665 - CubeFinder database generation date=2022-08-05 (1659688109)
+2022-09-20 09:08:28,464 [INFO] ApiDb:666 - CubeFinder database FW Pack versions=[STM32Cube_FW_C0_V1.0.0, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H7_V1.10.0, STM32Cube_FW_L5_V1.4.0, STM32Cube_FW_U5_V1.1.1, STM32Cube_FW_WB_V1.14.1, STM32Cube_FW_WL_V1.2.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.3, X-CUBE-BLE2_V3.3.0, X-CUBE-EEPRMA1_V3.1.1, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.3.0, X-CUBE-NFC4_V2.0.4, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2022-09-20 09:08:28,988 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.6.0.0
+2022-09-20 09:08:29,045 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.1.0
+2022-09-20 09:08:29,091 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.1.0
+2022-09-20 09:08:29,114 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.3
+2022-09-20 09:08:29,121 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.4
+2022-09-20 09:08:29,133 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.1.0
+2022-09-20 09:08:29,145 [WARN] PackLoader:242 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.5.0
+2022-09-20 09:08:29,151 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.0
+2022-09-20 09:08:29,241 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.3.0
+2022-09-20 09:08:29,521 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.2.0
+2022-09-20 09:08:29,532 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0
+2022-09-20 09:08:29,540 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.3.0
+2022-09-20 09:08:29,562 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.2.2.0
+2022-09-20 09:08:29,570 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.0.0
+2022-09-20 09:08:29,583 [WARN] PackLoader:242 - Cannot read IP mode file for RoweBots.I-CUBE-UNISONRTOS.5.5.0-4
+2022-09-20 09:08:29,613 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.2.1.0
+2022-09-20 09:08:29,628 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.1.0.0
+2022-09-20 09:08:29,636 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2022-09-20 09:08:29,652 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.1.0
+2022-09-20 09:08:29,663 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.5.0.0
+2022-09-20 09:08:29,722 [WARN] PackLoader:242 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.2.0
+2022-09-20 09:08:29,806 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.1.1.1
+2022-09-20 09:08:29,820 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.1.0.0
+2022-09-20 09:08:29,840 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2022-09-20 09:08:29,856 [WARN] PackLoader:242 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.1.2
+2022-09-20 09:08:29,860 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.20.0
+2022-09-20 09:08:29,872 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.1.0.0
+2022-09-20 09:08:29,878 [WARN] PackLoader:242 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2022-09-20 09:08:29,883 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2022-09-20 09:08:29,898 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.0.0
+2022-09-20 09:08:29,912 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.3.1.1
+2022-09-20 09:08:29,915 [INFO] ThirdParty:929 - Integrity check success = true
+2022-09-20 09:08:29,916 [INFO] IntegrityCheckThread:98 - exiting critical section [integrity check]
+2022-09-20 09:08:29,916 [INFO] IntegrityCheckThread:101 - End integrity checks thread
+2022-09-20 09:08:30,821 [INFO] ApiDb:239 - Found 138 in-development CPN: [B-WB1M-WPAN1, NUCLEO-C031C6, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L476VGY6PTR, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAG7, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q, STM32WB1MMCH6]
+2022-09-20 09:08:30,826 [INFO] DbMcus:215 - Found 3542 MCUs, 3542 are supported
+2022-09-20 09:08:30,829 [INFO] ApiDb:418 - Load user favorites file C:\Users\hasan/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-09-20 09:08:30,829 [INFO] ApiDb:422 - User favorites MCUs=[]
+2022-09-20 09:08:30,829 [INFO] DbMcus:221 - Set 0 / 0 favorites MCUs
+2022-09-20 09:08:32,212 [INFO] LoadUrlFilesThread:177 - End of LoadServerUrlFiles without Thread
+2022-09-20 09:08:32,220 [INFO] DetailPanel:339 - Set advertising image to C:/Users/hasan/STM32Cube/Repository/\en.Prom_NBSTM32U50921.jpg
+2022-09-20 09:08:32,958 [INFO] MultiScanPanel:778 - Auto Refresh Data is not needed
+2022-09-20 09:08:32,970 [INFO] ApiDb:663 - CubeFinder database Data Model version=2.1
+2022-09-20 09:08:32,970 [INFO] ApiDb:664 - CubeFinder database Configuration version=3.0.32
+2022-09-20 09:08:32,970 [INFO] ApiDb:665 - CubeFinder database generation date=2022-08-05 (1659688109)
+2022-09-20 09:08:32,971 [INFO] ApiDb:666 - CubeFinder database FW Pack versions=[STM32Cube_FW_C0_V1.0.0, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H7_V1.10.0, STM32Cube_FW_L5_V1.4.0, STM32Cube_FW_U5_V1.1.1, STM32Cube_FW_WB_V1.14.1, STM32Cube_FW_WL_V1.2.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.3, X-CUBE-BLE2_V3.3.0, X-CUBE-EEPRMA1_V3.1.1, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.3.0, X-CUBE-NFC4_V2.0.4, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2022-09-20 09:08:33,086 [INFO] DbBoardsSqlite:227 - include board P-NUCLEO-WB55-NUCLEO as a kit item of type 'Nucleo-64'
+2022-09-20 09:08:33,086 [INFO] DbBoardsSqlite:227 - include board P-NUCLEO-WB55-USBDONGLE as a kit item of type 'Nucleo USB Dongle'
+2022-09-20 09:08:33,087 [INFO] DbBoardsSqlite:227 - include board STEVAL-IDP005V1 as a kit item of type 'Evaluation Board'
+2022-09-20 09:08:33,087 [INFO] DbBoardsSqlite:227 - include board STEVAL-IDP005V2 as a kit item of type 'Evaluation Board'
+2022-09-20 09:08:33,100 [INFO] ApiDb:239 - Found 138 in-development CPN: [B-WB1M-WPAN1, NUCLEO-C031C6, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L476VGY6PTR, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAG7, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q, STM32WB1MMCH6]
+2022-09-20 09:08:33,225 [INFO] BoardInfo:879 - No configuration file found for board P-NUCLEO-WB55
+2022-09-20 09:08:33,225 [INFO] DbBoards:156 - Kit is not supported: P-NUCLEO-WB55
+2022-09-20 09:08:33,230 [INFO] BoardInfo:879 - No configuration file found for board STEVAL-BFA001V1B
+2022-09-20 09:08:33,230 [INFO] DbBoards:156 - Kit is not supported: STEVAL-BFA001V1B
+2022-09-20 09:08:33,231 [INFO] BoardInfo:879 - No configuration file found for board STEVAL-BFA001V2B
+2022-09-20 09:08:33,231 [INFO] DbBoards:156 - Kit is not supported: STEVAL-BFA001V2B
+2022-09-20 09:08:33,349 [INFO] DbBoards:160 - Found 176 boards, 173 are supported
+2022-09-20 09:08:33,362 [INFO] ApiDb:418 - Load user favorites file C:\Users\hasan/.stm32cubeide/favorites.boards.txt: 2 item(s)
+2022-09-20 09:08:33,363 [INFO] ApiDb:422 - User favorites Boards=[NUCLEO-L010RB, STM32F0DISCOVERY]
+2022-09-20 09:08:33,363 [INFO] DbBoards:189 - Set 2 / 2 favorites Boards
+2022-09-20 09:08:39,368 [INFO] MultiScanPanel:195 - Auto-refresh data requested => check proxy status ongoing
+2022-09-20 09:08:39,509 [INFO] LoadUrlFilesThread:177 - End of LoadServerUrlFiles without Thread
+2022-09-20 09:08:39,510 [INFO] DetailPanel:339 - Set advertising image to C:/Users/hasan/STM32Cube/Repository/\en.Prom_NBSTM32U50921.jpg
+2022-09-20 09:08:39,520 [INFO] DbBoards:628 - Loading board mini-images...
+2022-09-20 09:08:39,673 [ERROR] DbBoards:648 - No image file defined for board B-WB1M-WPAN1
+2022-09-20 09:08:39,673 [ERROR] DbBoards:648 - No image file defined for board NUCLEO-C031C6
+2022-09-20 09:08:40,824 [ERROR] DbBoards:648 - No image file defined for board STEVAL-STWINBX1
+2022-09-20 09:08:40,868 [ERROR] DbBoards:648 - No image file defined for board STM32091C-EVAL
+2022-09-20 09:08:40,868 [ERROR] DbBoards:648 - No image file defined for board STM32100E-EVAL
+2022-09-20 09:08:40,868 [ERROR] DbBoards:648 - No image file defined for board STM3210C-EVAL
+2022-09-20 09:08:40,880 [ERROR] DbBoards:648 - No image file defined for board STM3221G-EVAL
+2022-09-20 09:08:40,880 [ERROR] DbBoards:648 - No image file defined for board STM32303C-EVAL
+2022-09-20 09:08:40,952 [ERROR] DbBoards:648 - No image file defined for board STM32479I-EVAL
+2022-09-20 09:08:40,952 [ERROR] DbBoards:648 - No image file defined for board STM32746G-EVAL2
+2022-09-20 09:08:40,959 [ERROR] DbBoards:648 - No image file defined for board STM32C0116-DK
+2022-09-20 09:08:40,960 [ERROR] DbBoards:648 - No image file defined for board STM32C0316-DK
+2022-09-20 09:08:40,989 [ERROR] DbBoards:648 - No image file defined for board STM32F401C-DISCO
+2022-09-20 09:08:41,038 [ERROR] DbBoards:648 - No image file defined for board STM32F7308-DK
+2022-09-20 09:08:41,075 [ERROR] DbBoards:648 - No image file defined for board STM32F779I-EVAL
+2022-09-20 09:08:41,218 [ERROR] DbBoards:648 - No image file defined for board STM32H747I-EVAL
+2022-09-20 09:08:41,262 [ERROR] DbBoards:648 - No image file defined for board STM32L-DISCOVERY
+2022-09-20 09:08:41,300 [ERROR] DbBoards:648 - No image file defined for board STM32L152D-EVAL
+2022-09-20 09:08:41,426 [ERROR] DbBoards:648 - No image file defined for board STM32MP135F-DK
+2022-09-20 09:08:41,632 [INFO] DbBoards:651 - Loaded 157 board mini-images
+2022-09-20 09:08:41,721 [INFO] MultiScanPanel:778 - Auto Refresh Data is not needed
+2022-09-20 09:09:42,271 [INFO] MainUpdater:2768 - connection check result : 10
+2022-09-20 09:09:42,272 [INFO] MainUpdater:2768 - connection check result : 10
+2022-09-20 09:09:42,297 [INFO] MicroXplorer:451 - Change Database Path : 
+2022-09-20 09:09:42,297 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.60
+2022-09-20 09:09:42,299 [WARN] ThirdParty:827 - waiting for thirdparty lock release [close project]
+2022-09-20 09:09:42,299 [INFO] ThirdParty:829 - entering critical section [close project]
+2022-09-20 09:09:42,300 [INFO] ThirdParty:839 - exiting critical section [close project]
+2022-09-20 09:09:42,308 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2022-09-20 09:09:42,315 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 574397728 Bytes (675282944)
+2022-09-20 09:09:42,317 [INFO] OpenFileManager:307 - Change cursor
+2022-09-20 09:09:42,351 [INFO] ProjectFactory:399 - No CPN specified for board STM32F0DISCOVERY => set CPN to STM32F051R8T6
+2022-09-20 09:09:42,352 [INFO] Mcu:1922 - Initializing MCU STM32F051R8Tx STM32F051R8Tx STM32F051R8T6
+2022-09-20 09:09:43,823 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2022-09-20 09:09:44,188 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB1 is applicable
+2022-09-20 09:09:44,188 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB1 is applicable
+2022-09-20 09:09:44,188 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB2 is applicable
+2022-09-20 09:09:44,188 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB2 is applicable
+2022-09-20 09:09:44,188 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB3 is applicable
+2022-09-20 09:09:44,188 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB3 is applicable
+2022-09-20 09:09:44,188 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB4 is applicable
+2022-09-20 09:09:44,188 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB4 is applicable
+2022-09-20 09:09:44,188 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB1 is applicable
+2022-09-20 09:09:44,189 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB2 is applicable
+2022-09-20 09:09:44,189 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB3 is applicable
+2022-09-20 09:09:44,189 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB4 is applicable
+2022-09-20 09:09:44,189 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2022-09-20 09:09:44,189 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2022-09-20 09:09:44,189 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2022-09-20 09:09:44,189 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2022-09-20 09:09:44,189 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB1 is applicable
+2022-09-20 09:09:44,189 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB2 is applicable
+2022-09-20 09:09:44,189 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB3 is applicable
+2022-09-20 09:09:44,189 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB4 is applicable
+2022-09-20 09:09:44,189 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2022-09-20 09:09:44,190 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2022-09-20 09:09:44,190 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2022-09-20 09:09:44,190 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2022-09-20 09:09:44,190 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2022-09-20 09:09:44,190 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2022-09-20 09:09:44,190 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2022-09-20 09:09:44,190 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2022-09-20 09:09:44,190 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB1 is applicable
+2022-09-20 09:09:44,190 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB2 is applicable
+2022-09-20 09:09:44,190 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB3 is applicable
+2022-09-20 09:09:44,190 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB4 is applicable
+2022-09-20 09:09:44,190 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2022-09-20 09:09:44,190 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2022-09-20 09:09:44,190 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2022-09-20 09:09:44,191 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2022-09-20 09:09:44,191 [INFO] Rule:225 - rule Rename SubGHz_Phy SUBGHZ_APPLICATION SUBGHZ_PINGPONG to SUBGHZ_ADV_APPLICATION is applicable
+2022-09-20 09:09:44,191 [INFO] Rule:225 - rule Rename Enabled to IBEACON is applicable
+2022-09-20 09:09:44,191 [INFO] Rule:225 - rule GTZC_S instance for project manager is applicable
+2022-09-20 09:09:44,191 [INFO] Rule:225 - rule GTZC_S instance for context M33S is applicable
+2022-09-20 09:09:44,191 [INFO] Rule:225 - rule GTZC_S instance value for IP GTZC is applicable
+2022-09-20 09:09:44,191 [INFO] Rule:225 - rule GTZC_S instance for mcu.IP is applicable
+2022-09-20 09:09:44,191 [INFO] Rule:225 - rule GTZC_S instance for VP is applicable
+2022-09-20 09:09:44,191 [INFO] Rule:225 - rule GTZC_S instance for signal is applicable
+2022-09-20 09:09:44,191 [INFO] Rule:225 - rule GTZC_S instance for mcu.Pin is applicable
+2022-09-20 09:09:44,191 [INFO] Rule:225 - rule GTZC_S instance for VP is applicable
+2022-09-20 09:09:44,191 [INFO] Rule:225 - rule GTZC_S instance for signal is applicable
+2022-09-20 09:09:44,191 [INFO] Rule:225 - rule GTZC_S instance for mcu is applicable
+2022-09-20 09:09:44,191 [INFO] Rule:225 - rule GTZC_S instance for mcu.Pin is applicable
+2022-09-20 09:09:44,191 [INFO] Rule:225 - rule GTZC_S instance value for IP GTZC is applicable
+2022-09-20 09:09:44,191 [INFO] Rule:225 - rule GTZC_S instance for project manager is applicable
+2022-09-20 09:09:44,192 [INFO] Rule:225 - rule GTZC_S instance for context M33S is applicable
+2022-09-20 09:09:44,192 [INFO] Rule:225 - rule GTZC_S instance for VP is applicable
+2022-09-20 09:09:44,192 [INFO] Rule:225 - rule GTZC_S instance for signal is applicable
+2022-09-20 09:09:44,192 [INFO] Rule:225 - rule SPDIFRX instance for mcu is applicable
+2022-09-20 09:09:44,192 [INFO] Rule:225 - rule Rename Tracer Mode is applicable
+2022-09-20 09:09:44,192 [INFO] Rule:225 - rule SPDIFRX instance value for IP SPDIFRX is applicable
+2022-09-20 09:09:44,192 [INFO] Rule:225 - rule SPDIFRX instance for signal is applicable
+2022-09-20 09:09:44,192 [INFO] Rule:225 - rule SPDIFRX instance for project manager is applicable
+2022-09-20 09:09:44,192 [INFO] Rule:225 - rule SPDIFRX instance for project manager is applicable
+2022-09-20 09:09:44,193 [INFO] Rule:225 - rule ADC Scan  fix with FW F7 is applicable
+2022-09-20 09:09:44,193 [INFO] Rule:225 - rule ADC Scan  fix with FW F7 is applicable
+2022-09-20 09:09:44,193 [INFO] Rule:225 - rule Rename Comp Signal is applicable
+2022-09-20 09:09:44,193 [INFO] Rule:225 - rule DMA-DAC mode for DIE422 is applicable
+2022-09-20 09:09:44,193 [INFO] Rule:225 - rule DMA-DAC mode for DIE438 is applicable
+2022-09-20 09:09:44,193 [INFO] Rule:225 - rule DMA-DAC mode for DIE432 or DIE446 is applicable
+2022-09-20 09:09:44,193 [INFO] Rule:225 - rule DFSDM instance value for IP DFSDM is applicable
+2022-09-20 09:09:44,193 [INFO] Rule:225 - rule DFSDM instance for mcu is applicable
+2022-09-20 09:09:44,193 [INFO] Rule:225 - rule DFSDM instance for VP is applicable
+2022-09-20 09:09:44,193 [INFO] Rule:225 - rule DFSDM instance for signal is applicable
+2022-09-20 09:09:44,193 [INFO] Rule:225 - rule DFSDM instance for shared is applicable
+2022-09-20 09:09:44,193 [INFO] Rule:225 - rule BreakInputSource parameter for IP Timer is applicable
+2022-09-20 09:09:44,193 [INFO] Rule:225 - rule Sourcebreak parameter for IP Timer is applicable
+2022-09-20 09:09:44,194 [INFO] Rule:225 - rule Sourcebreak parameter for IP Timer is applicable
+2022-09-20 09:09:44,194 [INFO] Rule:225 - rule DFSDM for PCC is applicable
+2022-09-20 09:09:44,194 [INFO] Rule:225 - rule Serial_Wire Mode is applicable
+2022-09-20 09:09:44,194 [INFO] Rule:225 - rule JTAG_4_pins Mode is applicable
+2022-09-20 09:09:44,194 [INFO] Rule:225 - rule JTAG_5_pins Mode is applicable
+2022-09-20 09:09:44,194 [INFO] Rule:225 - rule Trace_Asynchronous_SW Mode is applicable
+2022-09-20 09:09:44,194 [INFO] Rule:225 - rule Trace_Synchro_1bit_JTAG Mode is applicable
+2022-09-20 09:09:44,194 [INFO] Rule:225 - rule Trace_Synchro_2bits_JTAG Mode is applicable
+2022-09-20 09:09:44,194 [INFO] Rule:225 - rule Trace_Synchro_4bits_JTAG Mode is applicable
+2022-09-20 09:09:44,194 [INFO] Rule:225 - rule Trace_Synchro_1bit_SW Mode is applicable
+2022-09-20 09:09:44,194 [INFO] Rule:225 - rule Trace_Synchro_2bits_SW Mode is applicable
+2022-09-20 09:09:44,194 [INFO] Rule:225 - rule Trace_Synchro_4bits_SW Mode is applicable
+2022-09-20 09:09:44,194 [INFO] Rule:225 - rule SYS_WakeUp0 Mode is applicable
+2022-09-20 09:09:44,194 [INFO] Rule:225 - rule SYS_WakeUp0 Mode for STM32F446 is applicable
+2022-09-20 09:09:44,194 [INFO] Rule:225 - rule SYS_WakeUp1 Mode is applicable
+2022-09-20 09:09:44,194 [INFO] Rule:225 - rule SYS_WakeUp1 Mode for STM32F446 is applicable
+2022-09-20 09:09:44,195 [INFO] Rule:225 - rule SYS_WakeUp2 Mode is applicable
+2022-09-20 09:09:44,195 [INFO] Rule:225 - rule SYS_WakeUp3 Mode is applicable
+2022-09-20 09:09:44,195 [INFO] Rule:225 - rule SYS_WakeUp4 Mode is applicable
+2022-09-20 09:09:44,195 [INFO] Rule:225 - rule SYS_WakeUp5 Mode is applicable
+2022-09-20 09:09:44,195 [INFO] Rule:225 - rule SYS_WakeUp6 Mode is applicable
+2022-09-20 09:09:44,195 [INFO] Rule:225 - rule SYS_WakeUp7 Mode is applicable
+2022-09-20 09:09:44,195 [INFO] Rule:225 - rule Mode_PVD_Ext is applicable
+2022-09-20 09:09:44,195 [INFO] Rule:225 - rule Mode_PVD_Int is applicable
+2022-09-20 09:09:44,196 [INFO] Rule:225 - rule Add RTC Activate Clock Source is applicable
+2022-09-20 09:09:44,196 [INFO] Rule:225 - rule Add RTC Activate Calendar 1 is applicable
+2022-09-20 09:09:44,196 [INFO] Rule:225 - rule Add RTC Activate Calendar 2 is applicable
+2022-09-20 09:09:44,196 [INFO] Rule:225 - rule Add RTC Activate Calendar 3 is applicable
+2022-09-20 09:09:44,196 [INFO] Rule:225 - rule UART/USART TX Mode is applicable
+2022-09-20 09:09:44,196 [INFO] Rule:225 - rule UART/USART RX Mode is applicable
+2022-09-20 09:09:44,196 [INFO] Rule:225 - rule UART/USART RX TX Mode is applicable
+2022-09-20 09:09:44,196 [INFO] Rule:225 - rule UART/USART PARITY NONE is applicable
+2022-09-20 09:09:44,196 [INFO] Rule:225 - rule UART/USART PARITY EVEN is applicable
+2022-09-20 09:09:44,197 [INFO] Rule:225 - rule UART/USART PARITY ODD is applicable
+2022-09-20 09:09:44,197 [INFO] Rule:225 - rule USART StopBits 1 is applicable
+2022-09-20 09:09:44,197 [INFO] Rule:225 - rule USART StopBits 2 is applicable
+2022-09-20 09:09:44,197 [INFO] Rule:225 - rule USART StopBits 1.5 is applicable
+2022-09-20 09:09:44,197 [INFO] Rule:225 - rule USART StopBits 0.5 is applicable
+2022-09-20 09:09:44,197 [INFO] Rule:225 - rule UART/USART WORD LENGTH 7 is applicable
+2022-09-20 09:09:44,197 [INFO] Rule:225 - rule UART/USART WORD LENGTH 8 is applicable
+2022-09-20 09:09:44,198 [INFO] Rule:225 - rule UART/USART WORD LENGTH 9 is applicable
+2022-09-20 09:09:44,198 [INFO] Rule:225 - rule Rename FMC NAND NCE signal is applicable
+2022-09-20 09:09:44,198 [INFO] Rule:225 - rule Rename FMC NAND INT signal is applicable
+2022-09-20 09:09:44,198 [INFO] Rule:225 - rule Change Default Value for ADC Clock Prescaler G0 family is applicable
+2022-09-20 09:09:44,198 [INFO] Rule:225 - rule Change Default Value for ADC ExternalTrigConv L4 family is applicable
+2022-09-20 09:09:44,198 [INFO] Rule:225 - rule Change Default Value for ADC ExternalTrigInjecConv L4 family is applicable
+2022-09-20 09:09:44,198 [INFO] Rule:225 - rule Change Default Value for ADC ExternalTrigConv F3 family is applicable
+2022-09-20 09:09:44,199 [INFO] Rule:225 - rule Change Default Value for ADC ExternalTrigInjecConv F3 family is applicable
+2022-09-20 09:09:44,199 [INFO] Rule:225 - rule Change Default Value for ADC ExternalTrigConv Goldfish serie is applicable
+2022-09-20 09:09:44,199 [INFO] Rule:225 - rule Change Default Value for ADC ExternalTrigInjecConv Goldfish serie is applicable
+2022-09-20 09:09:44,199 [INFO] Rule:225 - rule Change Default Value for ADC ExternalTrigConv L0 family is applicable
+2022-09-20 09:09:44,199 [INFO] Rule:225 - rule Change Default Value for ADC ExternalTrigConv F0 family is applicable
+2022-09-20 09:09:44,200 [INFO] Rule:225 - rule Change Default Value for ADC ExternalTrigConvn L1 family is applicable
+2022-09-20 09:09:44,200 [INFO] Rule:225 - rule Change Default Value for ADC ExternalTrigInjecConv L1 family is applicable
+2022-09-20 09:09:44,200 [INFO] Rule:225 - rule Change Default Value for ADC ExternalTrigConv F1 family is applicable
+2022-09-20 09:09:44,200 [INFO] Rule:225 - rule Change Default Value for ADC ExternalTrigInjecConv F1 family is applicable
+2022-09-20 09:09:44,200 [INFO] Rule:225 - rule Change Default Value for ADC ExternalTrigConv F7 family is applicable
+2022-09-20 09:09:44,200 [INFO] Rule:225 - rule Change Default Value for ADC ExternalTrigInjecConv F7 family is applicable
+2022-09-20 09:09:44,200 [INFO] Rule:225 - rule Change Default Value for ADC ExternalTrigConv F4 and F2 family is applicable
+2022-09-20 09:09:44,200 [INFO] Rule:225 - rule Change Default Value for ADC ExternalTrigInjecConv F4 and F2 family is applicable
+2022-09-20 09:09:44,201 [INFO] Rule:225 - rule ADC SamplingTime fix with FW L0  is applicable
+2022-09-20 09:09:44,201 [INFO] Rule:225 - rule ADC SamplingTime fix with FW L0  is applicable
+2022-09-20 09:09:44,201 [INFO] Rule:225 - rule ADC SamplingTime fix with FW L0 is applicable
+2022-09-20 09:09:44,201 [INFO] Rule:225 - rule ADC SamplingTime fix with FW L0 is applicable
+2022-09-20 09:09:44,201 [INFO] Rule:225 - rule ADC SamplingTime fix with FW L0  is applicable
+2022-09-20 09:09:44,202 [INFO] Rule:225 - rule ADC SamplingTime fix with FW L0 is applicable
+2022-09-20 09:09:44,202 [INFO] Rule:225 - rule Rename USB_OE Signal is applicable
+2022-09-20 09:09:44,202 [INFO] Rule:225 - rule Rename Activate_OE Mode is applicable
+2022-09-20 09:09:44,202 [INFO] Rule:225 - rule Rename DIE462/DIE415 pin PC14/OSC32_IN -> PC14-OSC32_IN (PC14) is applicable
+2022-09-20 09:09:44,202 [INFO] Rule:225 - rule Rename DIE462/DIE415 pin PC15/OSC32_OUT -> PC15-OSC32_OUT (PC15) is applicable
+2022-09-20 09:09:44,202 [INFO] Rule:225 - rule Rename DIE462/DIE415 pin PH0/OSC_IN -> PH0-OSC_IN (PH0) is applicable
+2022-09-20 09:09:44,202 [INFO] Rule:225 - rule Rename DIE462/DIE415 pin PH1/OSC_OUT -> PH1-OSC_OUT (PH1) is applicable
+2022-09-20 09:09:44,203 [INFO] Rule:225 - rule Rename DIE462 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2022-09-20 09:09:44,203 [INFO] Rule:225 - rule Rename DIE415 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2022-09-20 09:09:44,203 [INFO] Rule:225 - rule Rename DIE462 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2022-09-20 09:09:44,203 [INFO] Rule:225 - rule Rename DIE415 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2022-09-20 09:09:44,203 [INFO] Rule:225 - rule Rename DIE462/DIE415 pin PA15 -> PA15 (JTDI) is applicable
+2022-09-20 09:09:44,203 [INFO] Rule:225 - rule Rename DIE462 pin PB3 -> PB3 (JTD0/TRACESWO) is applicable
+2022-09-20 09:09:44,203 [INFO] Rule:225 - rule Rename DIE415 pin PB3 -> PB3 (JTD0-TRACESWO) is applicable
+2022-09-20 09:09:44,203 [INFO] Rule:225 - rule Rename DIE462/DIE415 pin PB4 -> PB4 (NJTRST) is applicable
+2022-09-20 09:09:44,203 [INFO] Rule:225 - rule Rename DIE462 pin PH3/BOOT0 -> PH3-BOOT0 (BOOT0) is applicable
+2022-09-20 09:09:44,203 [INFO] Rule:225 - rule Rename CRYP DataEncryptionTypesList to Algorithm is applicable
+2022-09-20 09:09:44,203 [INFO] Rule:225 - rule Rename AES DataEncryptionTypesList to Algorithm is applicable
+2022-09-20 09:09:44,204 [INFO] Rule:225 - rule Rename TDESECB to CRYP_TDES_ECB is applicable
+2022-09-20 09:09:44,204 [INFO] Rule:225 - rule Rename TDESCBC to CRYP_TDES_CBC is applicable
+2022-09-20 09:09:44,204 [INFO] Rule:225 - rule Rename DESECB to CRYP_DES_ECB is applicable
+2022-09-20 09:09:44,204 [INFO] Rule:225 - rule Rename DESCBC to CRYP_DES_CBC is applicable
+2022-09-20 09:09:44,204 [INFO] Rule:225 - rule Rename AESECB to CRYP_AES_ECB is applicable
+2022-09-20 09:09:44,204 [INFO] Rule:225 - rule Rename AESCBC to CRYP_AES_CBC is applicable
+2022-09-20 09:09:44,204 [INFO] Rule:225 - rule Rename AESCTR to CRYP_AES_CTR is applicable
+2022-09-20 09:09:44,204 [INFO] Rule:225 - rule Rename AESGCM to CRYP_AES_GCM is applicable
+2022-09-20 09:09:44,204 [INFO] Rule:225 - rule Rename AESCCM to CRYP_AES_CCM is applicable
+2022-09-20 09:09:44,204 [INFO] Rule:225 - rule Rename CAN TimeSeg1 to BS1 is applicable
+2022-09-20 09:09:44,204 [INFO] Rule:225 - rule Rename CAN TimeSeg2 to BS2 is applicable
+2022-09-20 09:09:44,204 [INFO] Rule:225 - rule Rename CAN SyncJumpWidth to SJW is applicable
+2022-09-20 09:09:44,205 [INFO] Rule:225 - rule TimeTriggeredMode to TTCM is applicable
+2022-09-20 09:09:44,205 [INFO] Rule:225 - rule Rename CAN AutoBusOff to ABOM is applicable
+2022-09-20 09:09:44,205 [INFO] Rule:225 - rule Rename CAN AutoWakeUp to AWUM is applicable
+2022-09-20 09:09:44,205 [INFO] Rule:225 - rule Rename CAN AutoRetransmission to NART is applicable
+2022-09-20 09:09:44,205 [INFO] Rule:225 - rule Rename CAN ReceiveFifoLocked to RFLM is applicable
+2022-09-20 09:09:44,205 [INFO] Rule:225 - rule Rename CAN TransmitFifoPriority to TXFP is applicable
+2022-09-20 09:09:44,205 [INFO] Rule:225 - rule Rename HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGH in HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGHZ is applicable
+2022-09-20 09:09:44,205 [INFO] Rule:225 - rule Rename TIMER TIM_CLEARINPUTSOURCE_OCREFCLR in  TIMER TIM_CLEARINPUTSOURCE_NONE for F7 family is applicable
+2022-09-20 09:09:44,205 [INFO] Rule:225 - rule FDCAN_R1 - Rename FDCAN mode Master into Classic is applicable
+2022-09-20 09:09:44,205 [INFO] Rule:225 - rule FDCAN_R2 - Rename FDCAN mode Slave into Classic is applicable
+2022-09-20 09:09:44,206 [INFO] Rule:225 - rule FDCAN1_R3 - if PA10.Mode=FullDuplex, add Pin PA12 is applicable
+2022-09-20 09:09:44,206 [INFO] Rule:225 - rule FDCAN1_R3 - if PA9.Mode=FullDuplex, add Pin PA11 is applicable
+2022-09-20 09:09:44,206 [INFO] Rule:225 - rule FDCAN1_R3 - Alternatepin_1 - if PE1.Mode=FullDuplex, add Pin PB9 is applicable
+2022-09-20 09:09:44,206 [INFO] Rule:225 - rule FDCAN1_R3 - Alternatepin_1 - if PE0.Mode=FullDuplex, add Pin PB8 is applicable
+2022-09-20 09:09:44,206 [INFO] Rule:225 - rule FDCAN1_R3 - Alternatepin_2 - if PD5.Mode=FullDuplex, add Pin PD1 is applicable
+2022-09-20 09:09:44,206 [INFO] Rule:225 - rule FDCAN1_R3 - Alternatepin_2 - if PD4.Mode=FullDuplex, add Pin PD0 is applicable
+2022-09-20 09:09:44,206 [INFO] Rule:225 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA10 is applicable
+2022-09-20 09:09:44,206 [INFO] Rule:225 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA9 is applicable
+2022-09-20 09:09:44,206 [INFO] Rule:225 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE1 is applicable
+2022-09-20 09:09:44,206 [INFO] Rule:225 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE0 is applicable
+2022-09-20 09:09:44,206 [INFO] Rule:225 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD5 is applicable
+2022-09-20 09:09:44,207 [INFO] Rule:225 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD4 is applicable
+2022-09-20 09:09:44,207 [INFO] Rule:225 - rule FDCAN2_R3 - if PD10.Mode=FullDuplex, add Pin PB13 is applicable
+2022-09-20 09:09:44,207 [INFO] Rule:225 - rule FDCAN2_R3 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2022-09-20 09:09:44,207 [INFO] Rule:225 - rule FDCAN2_R3 - Alternatepin_1 - if PB7.Mode=FullDuplex, add Pin PB6 is applicable
+2022-09-20 09:09:44,207 [INFO] Rule:225 - rule FDCAN2_R3 - Alternatepin_1 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2022-09-20 09:09:44,207 [INFO] Rule:225 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD10 is applicable
+2022-09-20 09:09:44,207 [INFO] Rule:225 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD9 is applicable
+2022-09-20 09:09:44,207 [INFO] Rule:225 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PB7 is applicable
+2022-09-20 09:09:44,207 [INFO] Rule:225 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD6 is applicable
+2022-09-20 09:09:44,207 [INFO] Rule:225 - rule USART TxPinLevelInvertParam Mode is applicable
+2022-09-20 09:09:44,207 [INFO] Rule:225 - rule USART RxPinLevelInvertParam Mode is applicable
+2022-09-20 09:09:44,207 [INFO] Rule:225 - rule USART DataInvertParam Mode is applicable
+2022-09-20 09:09:44,207 [INFO] Rule:225 - rule USART SwapParam Mode is applicable
+2022-09-20 09:09:44,207 [INFO] Rule:225 - rule USART OverrunDisableParam Mode is applicable
+2022-09-20 09:09:44,208 [INFO] Rule:225 - rule USART DMADisableonRxErrorParam Mode is applicable
+2022-09-20 09:09:44,208 [INFO] Rule:225 - rule USART MSBFirstParam Mode is applicable
+2022-09-20 09:09:44,208 [INFO] Rule:225 - rule Update MwName for USB_DEVICE is applicable
+2022-09-20 09:09:44,208 [INFO] Rule:225 - rule Change PWR_Regulator_Voltage_Scale Default Value for RCC  H7 family is applicable
+2022-09-20 09:09:44,208 [INFO] Rule:225 - rule UART/USART IPParameter rename Prescaler parameter to ClockPrescaler is applicable
+2022-09-20 09:09:44,208 [INFO] Rule:225 - rule UART/USART Prescaler rename Prescaler parameter to ClockPrescaler is applicable
+2022-09-20 09:09:44,208 [INFO] Rule:225 - rule TIM1CLockSelection is applicable
+2022-09-20 09:09:44,208 [INFO] Rule:225 - rule TIM15CLockSelection is applicable
+2022-09-20 09:09:44,208 [INFO] Rule:225 - rule align RCC SDMMC3CLockSelection default value on MP1 is applicable
+2022-09-20 09:09:44,208 [INFO] Rule:225 - rule align RCC SDMMC12CLockSelection default value on MP1 is applicable
+2022-09-20 09:09:44,208 [INFO] Rule:225 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2022-09-20 09:09:44,208 [INFO] Rule:225 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2022-09-20 09:09:44,208 [INFO] Rule:225 - rule align RCC SPI6CLockSelection default value on MP1 is applicable
+2022-09-20 09:09:44,208 [INFO] Rule:225 - rule align RCC LPTIM23CLockSelection default value on MP1 is applicable
+2022-09-20 09:09:44,209 [INFO] Rule:225 - rule align RCC LPTIM1CLockSelection default value on MP1 is applicable
+2022-09-20 09:09:44,209 [INFO] Rule:225 - rule align RCC USART1CLockSelection default value on MP1 is applicable
+2022-09-20 09:09:44,209 [INFO] Rule:225 - rule align RCC USART24CLockSelection default value on MP1 is applicable
+2022-09-20 09:09:44,209 [INFO] Rule:225 - rule align RCC USART6CLockSelection default value on MP1 is applicable
+2022-09-20 09:09:44,209 [INFO] Rule:225 - rule align RCC UART78CLockSelection default value on MP1 is applicable
+2022-09-20 09:09:44,209 [INFO] Rule:225 - rule align RCC USART35CLockSelection default value on MP1 is applicable
+2022-09-20 09:09:44,209 [INFO] Rule:225 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2022-09-20 09:09:44,209 [INFO] Rule:225 - rule align RCC I2C46CLockSelection BCLK value on MP1 is applicable
+2022-09-20 09:09:44,209 [INFO] Rule:225 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2022-09-20 09:09:44,209 [INFO] Rule:225 - rule align RCC I2C12CLockSelection default value on MP1 is applicable
+2022-09-20 09:09:44,209 [INFO] Rule:225 - rule align RCC I2C35CLockSelection default value on MP1 is applicable
+2022-09-20 09:09:44,209 [INFO] Rule:225 - rule align RCC LPTIM45CLockSelection default value on MP1 is applicable
+2022-09-20 09:09:44,209 [INFO] Rule:225 - rule Rename DCMI PIXCK signal is applicable
+2022-09-20 09:09:44,209 [INFO] Rule:225 - rule Change Default Value for I2C46CLockSelection MP1 family is applicable
+2022-09-20 09:09:44,210 [INFO] Rule:225 - rule Change Default Value for UART for G4, G0 and WB families is applicable
+2022-09-20 09:09:44,210 [INFO] Rule:225 - rule Change Default Value for USART for G4, G0 and WB families is applicable
+2022-09-20 09:09:44,210 [INFO] Rule:225 - rule Change Default Value for USART for G4 family is applicable
+2022-09-20 09:09:44,210 [INFO] Rule:225 - rule Change USART1CLockSelection refparam name for MP1 is applicable
+2022-09-20 09:09:44,210 [INFO] Rule:225 - rule Change USART2CLockSelection refparam name for MP1 is applicable
+2022-09-20 09:09:44,210 [INFO] Rule:225 - rule Change USART3CLockSelection refparam name for MP1 is applicable
+2022-09-20 09:09:44,210 [INFO] Rule:225 - rule Change UART4CLockSelection refparam name for MP1 is applicable
+2022-09-20 09:09:44,211 [INFO] Rule:225 - rule Change UART5CLockSelection refparam name for MP1 is applicable
+2022-09-20 09:09:44,211 [INFO] Rule:225 - rule Change LPUART1CLockSelection refparam name for MP1 is applicable
+2022-09-20 09:09:44,211 [INFO] Rule:225 - rule Change LPTIM1CLockSelection refparam name for MP1 is applicable
+2022-09-20 09:09:44,211 [INFO] Rule:225 - rule Change LPTIM2CLockSelection refparam name for MP1 is applicable
+2022-09-20 09:09:44,211 [INFO] Rule:225 - rule Change RCC_MCO1Source refparam name for MP1 is applicable
+2022-09-20 09:09:44,211 [INFO] Rule:225 - rule Change LSCOSource1 refparam name for MP1 is applicable
+2022-09-20 09:09:44,211 [INFO] Rule:225 - rule Change SMPSCLockSelection refparam name for MP1 is applicable
+2022-09-20 09:09:44,212 [INFO] Rule:225 - rule Change LPTIM3CLockSelection refparam name for MP1 is applicable
+2022-09-20 09:09:44,212 [INFO] Rule:225 - rule Change MPCBB* Default Template Mode to Parameters is applicable
+2022-09-20 09:09:44,212 [INFO] Rule:225 - rule Change MPCWM* or MPCBB* Secure Mode to Parameters is applicable
+2022-09-20 09:09:44,212 [INFO] Rule:225 - rule Change MPCWM* or MPCBB* No Secure Mode to Parameters is applicable
+2022-09-20 09:09:44,212 [INFO] Rule:225 - rule Change TZSC IP Secure Mode to Parameters is applicable
+2022-09-20 09:09:44,212 [INFO] Rule:225 - rule Change TZSC IP No Secure Mode to Parameters is applicable
+2022-09-20 09:09:44,212 [INFO] Rule:225 - rule Change TZSC IP Privilege Mode to Parameters is applicable
+2022-09-20 09:09:44,212 [INFO] Rule:225 - rule Change TZSC IP No Privilege Mode to Parameters is applicable
+2022-09-20 09:09:44,212 [INFO] Rule:225 - rule Change TZIC IT Secure Mode to Parameters is applicable
+2022-09-20 09:09:44,212 [INFO] Rule:225 - rule Change TZIC IT No Secure Mode to Parameters is applicable
+2022-09-20 09:09:44,212 [INFO] Rule:225 - rule Add MPCBB1_NonSecureArea_Start_Address value with referenced to MPCBB1_NonSecureArea_Start value is applicable
+2022-09-20 09:09:44,212 [INFO] Rule:225 - rule Add MPCBB2_NonSecureArea_Start_Address value with referenced to MPCBB2_NonSecureArea_Start value is applicable
+2022-09-20 09:09:44,213 [INFO] Rule:225 - rule Add MPCWM1_NonSecureArea*_Start_Address value with referenced to MPCWM1_NonSecureArea*_Start value is applicable
+2022-09-20 09:09:44,213 [INFO] Rule:225 - rule Add MPCWM2_NonSecureArea*_Start_Address value with referenced to MPCWM2_NonSecureArea*_Start value is applicable
+2022-09-20 09:09:44,213 [INFO] Rule:225 - rule Add MPCWM3_NonSecureArea_Start_Address value with referenced to MPCWM3_NonSecureArea_Start value is applicable
+2022-09-20 09:09:44,213 [INFO] Rule:225 - rule Change Default Value for PLL1UserDefinedConfig is applicable
+2022-09-20 09:09:44,213 [INFO] Rule:225 - rule Change GPIO_PuPd Default Value for USART in async mode is applicable
+2022-09-20 09:09:44,213 [INFO] Rule:225 - rule Change SMPSDivider Default Value is applicable
+2022-09-20 09:09:44,213 [INFO] Rule:225 - rule OPAMP is applicable
+2022-09-20 09:09:44,213 [INFO] Rule:225 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32H7 is applicable
+2022-09-20 09:09:44,213 [INFO] Rule:225 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32H7 is applicable
+2022-09-20 09:09:44,213 [INFO] Rule:225 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32WB is applicable
+2022-09-20 09:09:44,213 [INFO] Rule:225 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32WB is applicable
+2022-09-20 09:09:44,213 [INFO] Rule:225 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2022-09-20 09:09:44,213 [INFO] Rule:225 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2022-09-20 09:09:44,214 [INFO] Rule:225 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32L5 is applicable
+2022-09-20 09:09:44,214 [INFO] Rule:225 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32L5 is applicable
+2022-09-20 09:09:44,214 [INFO] Rule:225 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2022-09-20 09:09:44,214 [INFO] Rule:225 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2022-09-20 09:09:44,214 [INFO] Rule:225 - rule USB device lib V2.5.3 for L0 rename USBD_SUPPORT_USER_STRING parameter to USBD_SUPPORT_USER_STRING_DESC4 is applicable
+2022-09-20 09:09:44,214 [INFO] Rule:225 - rule I2SCLockSelection clock entry align is applicable
+2022-09-20 09:09:44,214 [INFO] Rule:225 - rule Assign TIMx context if used as SYS timebase is applicable
+2022-09-20 09:09:44,214 [INFO] Rule:225 - rule Change GPIO_Pu Default Value for I2C is applicable
+2022-09-20 09:09:44,214 [INFO] Rule:225 - rule Change GPIO_Pu Default Value for SMBus is applicable
+2022-09-20 09:09:44,214 [INFO] Rule:225 - rule change FDCAN default value is applicable
+2022-09-20 09:09:44,214 [INFO] Rule:225 - rule Change mode sai is applicable
+2022-09-20 09:09:44,215 [INFO] Rule:225 - rule **Change sai mode is applicable
+2022-09-20 09:09:44,226 [INFO] DbConfProperties:305 - Apply Compatibility (69/282 Rules)
+2022-09-20 09:09:44,244 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2022-09-20 09:09:44,343 [WARN] ApiManager:308 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2022-09-20 09:09:44,344 [WARN] ApiManager:308 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2022-09-20 09:09:44,344 [WARN] ApiManager:308 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2022-09-20 09:09:44,353 [WARN] ApiManager:308 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.3: no header file found
+2022-09-20 09:09:44,359 [INFO] RtosManager:488 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2022-09-20 09:09:44,359 [INFO] RtosManager:488 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2022-09-20 09:09:44,360 [INFO] RtosManager:488 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2022-09-20 09:09:44,360 [INFO] RtosManager:488 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2022-09-20 09:09:44,360 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2022-09-20 09:09:44,367 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-09-20 09:09:44,367 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-09-20 09:09:44,367 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-09-20 09:09:44,371 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.4: no header file found
+2022-09-20 09:09:44,380 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,380 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,380 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,380 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,380 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,380 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,380 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,380 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,380 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,381 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,381 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,381 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,381 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,381 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,381 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,381 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,381 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,381 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,381 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,381 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,381 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,381 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,382 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,382 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,382 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,382 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,382 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,382 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,382 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,382 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,382 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,382 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,383 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-09-20 09:09:44,385 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC07A1' from pack STMicroelectronics.X-CUBE-NFC7.1.0.0: no header file found
+2022-09-20 09:09:44,569 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2022-09-20 09:09:44,569 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2022-09-20 09:09:44,569 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2022-09-20 09:09:44,581 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-09-20 09:09:44,581 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-09-20 09:09:44,582 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2022-09-20 09:09:44,583 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2022-09-20 09:09:44,583 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2022-09-20 09:09:44,584 [WARN] ApiManager:308 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.3.0: no header file found
+2022-09-20 09:09:44,595 [INFO] ThirdPartyModel:289 - Start build external matchings
+2022-09-20 09:09:44,965 [INFO] ThirdPartyModel:302 - End build external matchings
+2022-09-20 09:09:45,232 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 568773096 Bytes (675282944)
+2022-09-20 09:09:45,261 [WARN] ThirdParty:789 - waiting for thirdparty lock release [change project]
+2022-09-20 09:09:45,261 [INFO] ThirdParty:791 - entering critical section [change project]
+2022-09-20 09:09:45,261 [INFO] ThirdParty:981 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2022-09-20 09:09:45,262 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2022-09-20 09:09:45,262 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.1.0
+2022-09-20 09:09:45,262 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2022-09-20 09:09:45,262 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2022-09-20 09:09:45,262 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2022-09-20 09:09:45,262 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2022-09-20 09:09:45,262 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.0.0
+2022-09-20 09:09:45,262 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2022-09-20 09:09:45,263 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2022-09-20 09:09:45,263 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2022-09-20 09:09:45,263 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2022-09-20 09:09:45,263 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2022-09-20 09:09:45,264 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2022-09-20 09:09:45,264 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2022-09-20 09:09:45,264 [INFO] ThirdParty:981 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2022-09-20 09:09:45,264 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2022-09-20 09:09:45,264 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2022-09-20 09:09:45,264 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.4
+2022-09-20 09:09:45,264 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2022-09-20 09:09:45,265 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2022-09-20 09:09:45,265 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2022-09-20 09:09:45,266 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2022-09-20 09:09:45,266 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.1.0
+2022-09-20 09:09:45,266 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2022-09-20 09:09:45,266 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2022-09-20 09:09:45,266 [INFO] ThirdParty:981 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.0
+2022-09-20 09:09:45,266 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2022-09-20 09:09:45,266 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2022-09-20 09:09:45,266 [INFO] ThirdParty:981 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.2
+2022-09-20 09:09:45,267 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.20.0
+2022-09-20 09:09:45,267 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2022-09-20 09:09:45,267 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2022-09-20 09:09:45,267 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2022-09-20 09:09:45,267 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.3.0
+2022-09-20 09:09:45,267 [INFO] ThirdParty:981 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2022-09-20 09:09:45,267 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2022-09-20 09:09:45,267 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.2.0
+2022-09-20 09:09:45,267 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2022-09-20 09:09:45,267 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2022-09-20 09:09:45,267 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2022-09-20 09:09:45,267 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-09-20 09:09:45,267 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2022-09-20 09:09:45,267 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2022-09-20 09:09:45,267 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2022-09-20 09:09:45,267 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2022-09-20 09:09:45,267 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.2.0
+2022-09-20 09:09:45,268 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2022-09-20 09:09:45,268 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.0.0
+2022-09-20 09:09:45,268 [INFO] ThirdParty:797 - exiting critical section [change project]
+2022-09-20 09:09:45,639 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2022-09-20 09:09:45,641 [INFO] PinOutPanel:1468 - setPackage(STM32F051R8Tx,LQFP64)
+2022-09-20 09:09:46,562 [INFO] UtilMem:74 - Before build in PCC Used Memory: 583033768 Bytes (675282944)
+2022-09-20 09:09:47,496 [INFO] UtilMem:74 - After build in PCC Used Memory: 593502024 Bytes (675282944)
+2022-09-20 09:09:47,531 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,531 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,532 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,532 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,532 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,532 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,533 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,533 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,533 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,533 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,533 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,534 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,534 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,534 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,534 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,535 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,535 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,535 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,535 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,536 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,536 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,536 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,536 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,537 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,537 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,537 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,538 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,538 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,538 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,538 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,539 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,539 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,540 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,540 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-20 09:09:47,783 [INFO] OpenFileManager:327 - Restore cursor
+2022-09-20 09:09:48,712 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 579538344 Bytes (675282944)
+2022-09-20 09:09:48,785 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 594771232 Bytes (675282944)
+2022-09-20 09:09:49,533 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-09-20 09:09:49,533 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-09-20 09:09:49,533 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-09-20 09:09:49,534 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-09-20 09:09:49,535 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-09-20 09:09:50,121 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp_save
+2022-09-20 09:09:50,729 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp
+2022-09-20 09:09:50,915 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp_save
+2022-09-20 09:09:51,177 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp
+2022-09-20 09:09:51,258 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c_save
+2022-09-20 09:09:51,523 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c
+2022-09-20 09:09:51,533 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h_save
+2022-09-20 09:09:51,623 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h
+2022-09-20 09:09:51,646 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c_save
+2022-09-20 09:09:51,833 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c
+2022-09-20 09:09:51,845 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp_save
+2022-09-20 09:09:51,957 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp
+2022-09-20 09:09:51,977 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h_save
+2022-09-20 09:09:52,128 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h
+2022-09-20 09:09:52,202 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h_save
+2022-09-20 09:09:52,385 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h
+2022-09-20 09:09:52,400 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c_save
+2022-09-20 09:09:52,606 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c
+2022-09-20 09:09:53,743 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 340mS.
+2022-09-20 09:09:53,762 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-09-20 09:09:54,265 [INFO] ConfigFileManager:1394 - The Die is : DIE440
+2022-09-20 09:09:54,295 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2022-09-20 09:09:54,340 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2022-09-20 09:09:54,600 [INFO] ApiDbMcu:505 - Load IP Config File for TOUCHSENSING
+2022-09-20 09:09:59,189 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 5428mS.
+2022-09-20 09:09:59,191 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-20 09:09:59,194 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-20 09:10:00,833 [INFO] McuFinderGlobals:57 - Set McuFinderConnectedMode to true
+2022-09-20 09:10:00,835 [INFO] ApiDb:443 - Save user favorites file C:\Users\hasan/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-09-20 09:10:00,836 [INFO] ApiDb:447 - User favorites MCUs=[]
+2022-09-20 09:10:00,837 [INFO] ApiDb:443 - Save user favorites file C:\Users\hasan/.stm32cubeide/favorites.boards.txt: 2 item(s)
+2022-09-20 09:10:00,837 [INFO] ApiDb:447 - User favorites Boards=[NUCLEO-L010RB, STM32F0DISCOVERY]
+2022-09-20 09:31:26,574 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 249966352 Bytes (921698304)
+2022-09-20 09:31:28,859 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 275934792 Bytes (921698304)
+2022-09-20 09:31:30,270 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 416620456 Bytes (921698304)
+2022-09-20 09:31:30,771 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-09-20 09:31:30,772 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2022-09-20 09:31:30,772 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DMA
+2022-09-20 09:31:30,772 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-09-20 09:31:30,773 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-09-20 09:31:30,773 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-09-20 09:31:30,774 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-09-20 09:31:30,943 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp_save
+2022-09-20 09:31:31,040 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp
+2022-09-20 09:31:31,076 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp_save
+2022-09-20 09:31:31,183 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp
+2022-09-20 09:31:31,373 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\dma.tmp_save
+2022-09-20 09:31:31,476 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\dma.tmp
+2022-09-20 09:31:31,486 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\dma_GV.tmp_save
+2022-09-20 09:31:31,566 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\dma_GV.tmp
+2022-09-20 09:31:31,590 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c_save
+2022-09-20 09:31:31,727 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c
+2022-09-20 09:31:31,736 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h_save
+2022-09-20 09:31:31,826 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h
+2022-09-20 09:31:31,848 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c_save
+2022-09-20 09:31:31,981 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c
+2022-09-20 09:31:31,988 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp_save
+2022-09-20 09:31:32,070 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp
+2022-09-20 09:31:32,087 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h_save
+2022-09-20 09:31:32,183 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h
+2022-09-20 09:31:32,218 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h_save
+2022-09-20 09:31:32,302 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h
+2022-09-20 09:31:32,317 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c_save
+2022-09-20 09:31:32,430 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c
+2022-09-20 09:31:33,241 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 221mS.
+2022-09-20 09:31:33,244 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-09-20 09:31:33,436 [INFO] ConfigFileManager:1394 - The Die is : DIE440
+2022-09-20 09:31:35,113 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1869mS.
+2022-09-20 09:31:35,114 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-09-20 09:31:35,116 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-20 09:35:39,570 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,529x353,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-09-20 09:46:05,919 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 460394808 Bytes (921698304)
+2022-09-20 09:46:08,349 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 482414904 Bytes (921698304)
+2022-09-20 09:46:08,867 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 510726456 Bytes (921698304)
+2022-09-20 09:46:09,148 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-09-20 09:46:09,148 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2022-09-20 09:46:09,148 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DMA
+2022-09-20 09:46:09,148 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-09-20 09:46:09,149 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-09-20 09:46:09,149 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-09-20 09:46:09,152 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-09-20 09:46:09,173 [INFO] Argument:300 - Argument : hdmavalue: null
+2022-09-20 09:46:09,173 [INFO] Argument:302 - 	 sub Args: 
+2022-09-20 09:46:09,173 [INFO] Argument:300 - Argument : Instancevalue: DMA1_Channel2
+2022-09-20 09:46:09,173 [INFO] Argument:310 - Argument : Instancevalue: DMA1_Channel2
+2022-09-20 09:46:09,173 [INFO] Argument:300 - Argument : Initvalue: null
+2022-09-20 09:46:09,173 [INFO] Argument:302 - 	 sub Args: 
+2022-09-20 09:46:09,173 [INFO] Argument:300 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2022-09-20 09:46:09,173 [INFO] Argument:310 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2022-09-20 09:46:09,173 [INFO] Argument:300 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-09-20 09:46:09,174 [INFO] Argument:310 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-09-20 09:46:09,174 [INFO] Argument:300 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-09-20 09:46:09,174 [INFO] Argument:310 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-09-20 09:46:09,174 [INFO] Argument:300 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-09-20 09:46:09,174 [INFO] Argument:310 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-09-20 09:46:09,174 [INFO] Argument:300 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-09-20 09:46:09,174 [INFO] Argument:310 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-09-20 09:46:09,174 [INFO] Argument:300 - Argument : Modevalue: DMA_CIRCULAR
+2022-09-20 09:46:09,174 [INFO] Argument:310 - Argument : Modevalue: DMA_CIRCULAR
+2022-09-20 09:46:09,175 [INFO] Argument:300 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-09-20 09:46:09,175 [INFO] Argument:310 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-09-20 09:46:09,175 [INFO] Argument:300 - Argument : Lockvalue: null
+2022-09-20 09:46:09,175 [INFO] Argument:310 - Argument : Lockvalue: null
+2022-09-20 09:46:09,175 [INFO] Argument:300 - Argument : Statevalue: null
+2022-09-20 09:46:09,175 [INFO] Argument:310 - Argument : Statevalue: null
+2022-09-20 09:46:09,175 [INFO] Argument:300 - Argument : Parentvalue: null
+2022-09-20 09:46:09,175 [INFO] Argument:310 - Argument : Parentvalue: null
+2022-09-20 09:46:09,175 [INFO] Argument:300 - Argument : XferCpltCallbackvalue: null
+2022-09-20 09:46:09,175 [INFO] Argument:310 - Argument : XferCpltCallbackvalue: null
+2022-09-20 09:46:09,176 [INFO] Argument:300 - Argument : XferHalfCpltCallbackvalue: null
+2022-09-20 09:46:09,176 [INFO] Argument:310 - Argument : XferHalfCpltCallbackvalue: null
+2022-09-20 09:46:09,176 [INFO] Argument:300 - Argument : XferErrorCallbackvalue: null
+2022-09-20 09:46:09,176 [INFO] Argument:310 - Argument : XferErrorCallbackvalue: null
+2022-09-20 09:46:09,176 [INFO] Argument:300 - Argument : ErrorCodevalue: null
+2022-09-20 09:46:09,176 [INFO] Argument:310 - Argument : ErrorCodevalue: null
+2022-09-20 09:46:09,176 [INFO] Argument:300 - Argument : DMA_Remapvalue: null
+2022-09-20 09:46:09,176 [INFO] Argument:310 - Argument : DMA_Remapvalue: null
+2022-09-20 09:46:09,177 [INFO] Argument:300 - Argument : hdmavalue: null
+2022-09-20 09:46:09,177 [INFO] Argument:302 - 	 sub Args: 
+2022-09-20 09:46:09,177 [INFO] Argument:300 - Argument : Instancevalue: DMA1_Channel3
+2022-09-20 09:46:09,177 [INFO] Argument:310 - Argument : Instancevalue: DMA1_Channel3
+2022-09-20 09:46:09,177 [INFO] Argument:300 - Argument : Initvalue: null
+2022-09-20 09:46:09,177 [INFO] Argument:302 - 	 sub Args: 
+2022-09-20 09:46:09,177 [INFO] Argument:300 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-09-20 09:46:09,177 [INFO] Argument:310 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-09-20 09:46:09,177 [INFO] Argument:300 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-09-20 09:46:09,177 [INFO] Argument:310 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-09-20 09:46:09,177 [INFO] Argument:300 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-09-20 09:46:09,177 [INFO] Argument:310 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-09-20 09:46:09,177 [INFO] Argument:300 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-09-20 09:46:09,177 [INFO] Argument:310 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-09-20 09:46:09,178 [INFO] Argument:300 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-09-20 09:46:09,178 [INFO] Argument:310 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-09-20 09:46:09,178 [INFO] Argument:300 - Argument : Modevalue: DMA_CIRCULAR
+2022-09-20 09:46:09,178 [INFO] Argument:310 - Argument : Modevalue: DMA_CIRCULAR
+2022-09-20 09:46:09,178 [INFO] Argument:300 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-09-20 09:46:09,178 [INFO] Argument:310 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-09-20 09:46:09,178 [INFO] Argument:300 - Argument : Lockvalue: null
+2022-09-20 09:46:09,178 [INFO] Argument:310 - Argument : Lockvalue: null
+2022-09-20 09:46:09,178 [INFO] Argument:300 - Argument : Statevalue: null
+2022-09-20 09:46:09,178 [INFO] Argument:310 - Argument : Statevalue: null
+2022-09-20 09:46:09,178 [INFO] Argument:300 - Argument : Parentvalue: null
+2022-09-20 09:46:09,178 [INFO] Argument:310 - Argument : Parentvalue: null
+2022-09-20 09:46:09,179 [INFO] Argument:300 - Argument : XferCpltCallbackvalue: null
+2022-09-20 09:46:09,179 [INFO] Argument:310 - Argument : XferCpltCallbackvalue: null
+2022-09-20 09:46:09,179 [INFO] Argument:300 - Argument : XferHalfCpltCallbackvalue: null
+2022-09-20 09:46:09,179 [INFO] Argument:310 - Argument : XferHalfCpltCallbackvalue: null
+2022-09-20 09:46:09,179 [INFO] Argument:300 - Argument : XferErrorCallbackvalue: null
+2022-09-20 09:46:09,179 [INFO] Argument:310 - Argument : XferErrorCallbackvalue: null
+2022-09-20 09:46:09,179 [INFO] Argument:300 - Argument : ErrorCodevalue: null
+2022-09-20 09:46:09,179 [INFO] Argument:310 - Argument : ErrorCodevalue: null
+2022-09-20 09:46:09,179 [INFO] Argument:300 - Argument : DMA_Remapvalue: null
+2022-09-20 09:46:09,179 [INFO] Argument:310 - Argument : DMA_Remapvalue: null
+2022-09-20 09:46:09,474 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp_save
+2022-09-20 09:46:09,641 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp
+2022-09-20 09:46:09,676 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp_save
+2022-09-20 09:46:09,766 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp
+2022-09-20 09:46:09,881 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\dma.tmp_save
+2022-09-20 09:46:09,965 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\dma.tmp
+2022-09-20 09:46:09,969 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\dma_GV.tmp_save
+2022-09-20 09:46:10,043 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\dma_GV.tmp
+2022-09-20 09:46:10,065 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c_save
+2022-09-20 09:46:10,214 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c
+2022-09-20 09:46:10,222 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h_save
+2022-09-20 09:46:10,300 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h
+2022-09-20 09:46:10,322 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c_save
+2022-09-20 09:46:10,440 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c
+2022-09-20 09:46:10,448 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp_save
+2022-09-20 09:46:10,501 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp
+2022-09-20 09:46:10,517 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h_save
+2022-09-20 09:46:10,592 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h
+2022-09-20 09:46:10,616 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h_save
+2022-09-20 09:46:10,680 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h
+2022-09-20 09:46:10,691 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c_save
+2022-09-20 09:46:10,785 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c
+2022-09-20 09:46:11,550 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 290mS.
+2022-09-20 09:46:11,552 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-09-20 09:46:11,739 [INFO] ConfigFileManager:1394 - The Die is : DIE440
+2022-09-20 09:46:12,863 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1311mS.
+2022-09-20 09:46:12,864 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-09-20 09:46:12,867 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-09-20 10:03:36,327 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-09-20 10:03:38,328 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 264658288 Bytes (921698304)
+2022-09-20 10:03:39,409 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 285107568 Bytes (921698304)
+2022-09-20 10:03:41,036 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 359829176 Bytes (921698304)
+2022-09-20 10:03:41,257 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-09-20 10:03:41,257 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2022-09-20 10:03:41,257 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DMA
+2022-09-20 10:03:41,257 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-09-20 10:03:41,258 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-09-20 10:03:41,258 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-09-20 10:03:41,259 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-09-20 10:03:41,275 [INFO] Argument:300 - Argument : hdmavalue: null
+2022-09-20 10:03:41,275 [INFO] Argument:302 - 	 sub Args: 
+2022-09-20 10:03:41,275 [INFO] Argument:300 - Argument : Instancevalue: DMA1_Channel2
+2022-09-20 10:03:41,276 [INFO] Argument:310 - Argument : Instancevalue: DMA1_Channel2
+2022-09-20 10:03:41,276 [INFO] Argument:300 - Argument : Initvalue: null
+2022-09-20 10:03:41,276 [INFO] Argument:302 - 	 sub Args: 
+2022-09-20 10:03:41,276 [INFO] Argument:300 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2022-09-20 10:03:41,276 [INFO] Argument:310 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2022-09-20 10:03:41,276 [INFO] Argument:300 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-09-20 10:03:41,276 [INFO] Argument:310 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-09-20 10:03:41,276 [INFO] Argument:300 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-09-20 10:03:41,276 [INFO] Argument:310 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-09-20 10:03:41,277 [INFO] Argument:300 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-09-20 10:03:41,277 [INFO] Argument:310 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-09-20 10:03:41,277 [INFO] Argument:300 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-09-20 10:03:41,277 [INFO] Argument:310 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-09-20 10:03:41,277 [INFO] Argument:300 - Argument : Modevalue: DMA_CIRCULAR
+2022-09-20 10:03:41,277 [INFO] Argument:310 - Argument : Modevalue: DMA_CIRCULAR
+2022-09-20 10:03:41,277 [INFO] Argument:300 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-09-20 10:03:41,277 [INFO] Argument:310 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-09-20 10:03:41,278 [INFO] Argument:300 - Argument : Lockvalue: null
+2022-09-20 10:03:41,278 [INFO] Argument:310 - Argument : Lockvalue: null
+2022-09-20 10:03:41,278 [INFO] Argument:300 - Argument : Statevalue: null
+2022-09-20 10:03:41,278 [INFO] Argument:310 - Argument : Statevalue: null
+2022-09-20 10:03:41,278 [INFO] Argument:300 - Argument : Parentvalue: null
+2022-09-20 10:03:41,278 [INFO] Argument:310 - Argument : Parentvalue: null
+2022-09-20 10:03:41,278 [INFO] Argument:300 - Argument : XferCpltCallbackvalue: null
+2022-09-20 10:03:41,278 [INFO] Argument:310 - Argument : XferCpltCallbackvalue: null
+2022-09-20 10:03:41,279 [INFO] Argument:300 - Argument : XferHalfCpltCallbackvalue: null
+2022-09-20 10:03:41,279 [INFO] Argument:310 - Argument : XferHalfCpltCallbackvalue: null
+2022-09-20 10:03:41,279 [INFO] Argument:300 - Argument : XferErrorCallbackvalue: null
+2022-09-20 10:03:41,279 [INFO] Argument:310 - Argument : XferErrorCallbackvalue: null
+2022-09-20 10:03:41,279 [INFO] Argument:300 - Argument : ErrorCodevalue: null
+2022-09-20 10:03:41,279 [INFO] Argument:310 - Argument : ErrorCodevalue: null
+2022-09-20 10:03:41,280 [INFO] Argument:300 - Argument : DMA_Remapvalue: null
+2022-09-20 10:03:41,280 [INFO] Argument:310 - Argument : DMA_Remapvalue: null
+2022-09-20 10:03:41,280 [INFO] Argument:300 - Argument : hdmavalue: null
+2022-09-20 10:03:41,280 [INFO] Argument:302 - 	 sub Args: 
+2022-09-20 10:03:41,280 [INFO] Argument:300 - Argument : Instancevalue: DMA1_Channel3
+2022-09-20 10:03:41,280 [INFO] Argument:310 - Argument : Instancevalue: DMA1_Channel3
+2022-09-20 10:03:41,281 [INFO] Argument:300 - Argument : Initvalue: null
+2022-09-20 10:03:41,281 [INFO] Argument:302 - 	 sub Args: 
+2022-09-20 10:03:41,281 [INFO] Argument:300 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-09-20 10:03:41,281 [INFO] Argument:310 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-09-20 10:03:41,281 [INFO] Argument:300 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-09-20 10:03:41,281 [INFO] Argument:310 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-09-20 10:03:41,281 [INFO] Argument:300 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-09-20 10:03:41,282 [INFO] Argument:310 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-09-20 10:03:41,282 [INFO] Argument:300 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-09-20 10:03:41,282 [INFO] Argument:310 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-09-20 10:03:41,282 [INFO] Argument:300 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-09-20 10:03:41,282 [INFO] Argument:310 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-09-20 10:03:41,282 [INFO] Argument:300 - Argument : Modevalue: DMA_CIRCULAR
+2022-09-20 10:03:41,283 [INFO] Argument:310 - Argument : Modevalue: DMA_CIRCULAR
+2022-09-20 10:03:41,283 [INFO] Argument:300 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-09-20 10:03:41,283 [INFO] Argument:310 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-09-20 10:03:41,283 [INFO] Argument:300 - Argument : Lockvalue: null
+2022-09-20 10:03:41,283 [INFO] Argument:310 - Argument : Lockvalue: null
+2022-09-20 10:03:41,283 [INFO] Argument:300 - Argument : Statevalue: null
+2022-09-20 10:03:41,284 [INFO] Argument:310 - Argument : Statevalue: null
+2022-09-20 10:03:41,284 [INFO] Argument:300 - Argument : Parentvalue: null
+2022-09-20 10:03:41,284 [INFO] Argument:310 - Argument : Parentvalue: null
+2022-09-20 10:03:41,284 [INFO] Argument:300 - Argument : XferCpltCallbackvalue: null
+2022-09-20 10:03:41,284 [INFO] Argument:310 - Argument : XferCpltCallbackvalue: null
+2022-09-20 10:03:41,284 [INFO] Argument:300 - Argument : XferHalfCpltCallbackvalue: null
+2022-09-20 10:03:41,285 [INFO] Argument:310 - Argument : XferHalfCpltCallbackvalue: null
+2022-09-20 10:03:41,285 [INFO] Argument:300 - Argument : XferErrorCallbackvalue: null
+2022-09-20 10:03:41,285 [INFO] Argument:310 - Argument : XferErrorCallbackvalue: null
+2022-09-20 10:03:41,285 [INFO] Argument:300 - Argument : ErrorCodevalue: null
+2022-09-20 10:03:41,285 [INFO] Argument:310 - Argument : ErrorCodevalue: null
+2022-09-20 10:03:41,285 [INFO] Argument:300 - Argument : DMA_Remapvalue: null
+2022-09-20 10:03:41,286 [INFO] Argument:310 - Argument : DMA_Remapvalue: null
+2022-09-20 10:03:41,460 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp_save
+2022-09-20 10:03:41,557 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp
+2022-09-20 10:03:41,597 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp_save
+2022-09-20 10:03:41,693 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp
+2022-09-20 10:03:41,874 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\dma.tmp_save
+2022-09-20 10:03:42,021 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\dma.tmp
+2022-09-20 10:03:42,026 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\dma_GV.tmp_save
+2022-09-20 10:03:42,103 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\dma_GV.tmp
+2022-09-20 10:03:42,122 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c_save
+2022-09-20 10:03:42,199 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c
+2022-09-20 10:03:42,206 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h_save
+2022-09-20 10:03:42,263 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h
+2022-09-20 10:03:42,279 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c_save
+2022-09-20 10:03:42,392 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c
+2022-09-20 10:03:42,397 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp_save
+2022-09-20 10:03:42,467 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp
+2022-09-20 10:03:42,478 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h_save
+2022-09-20 10:03:42,556 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h
+2022-09-20 10:03:42,579 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h_save
+2022-09-20 10:03:42,655 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h
+2022-09-20 10:03:42,663 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c_save
+2022-09-20 10:03:42,753 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c
+2022-09-20 10:03:43,609 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 243mS.
+2022-09-20 10:03:43,613 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-09-20 10:03:43,820 [INFO] ConfigFileManager:1394 - The Die is : DIE440
+2022-09-20 10:03:45,089 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1476mS.
+2022-09-20 10:03:45,090 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-09-20 10:03:45,094 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-20 11:11:28,663 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 258326352 Bytes (943718400)
+2022-09-20 11:11:29,748 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 280355680 Bytes (943718400)
+2022-09-20 11:11:32,444 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 341425856 Bytes (943718400)
+2022-09-20 11:11:32,730 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-09-20 11:11:32,731 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2022-09-20 11:11:32,731 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-09-20 11:11:32,731 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-09-20 11:11:32,731 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-09-20 11:11:32,732 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-09-20 11:11:33,014 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp_save
+2022-09-20 11:11:33,078 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp
+2022-09-20 11:11:33,112 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp_save
+2022-09-20 11:11:33,221 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp
+2022-09-20 11:11:33,315 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c_save
+2022-09-20 11:11:33,427 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c
+2022-09-20 11:11:33,437 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h_save
+2022-09-20 11:11:33,519 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h
+2022-09-20 11:11:33,546 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c_save
+2022-09-20 11:11:33,652 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c
+2022-09-20 11:11:33,658 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp_save
+2022-09-20 11:11:33,717 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp
+2022-09-20 11:11:33,738 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h_save
+2022-09-20 11:11:33,803 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h
+2022-09-20 11:11:33,826 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h_save
+2022-09-20 11:11:33,892 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h
+2022-09-20 11:11:33,907 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c_save
+2022-09-20 11:11:33,996 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c
+2022-09-20 11:11:34,601 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 265mS.
+2022-09-20 11:11:34,603 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-09-20 11:11:34,999 [INFO] ConfigFileManager:1394 - The Die is : DIE440
+2022-09-20 11:11:36,106 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1503mS.
+2022-09-20 11:11:36,107 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-09-20 11:11:36,111 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-20 11:20:30,665 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 616552832 Bytes (973078528)
+2022-09-20 11:20:33,636 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 638757072 Bytes (973078528)
+2022-09-20 11:20:34,085 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 667900920 Bytes (973078528)
+2022-09-20 11:20:34,438 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-09-20 11:20:34,439 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2022-09-20 11:20:34,439 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-09-20 11:20:34,439 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-09-20 11:20:34,439 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-09-20 11:20:34,441 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-09-20 11:20:34,665 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp_save
+2022-09-20 11:20:34,745 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp
+2022-09-20 11:20:34,771 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp_save
+2022-09-20 11:20:34,839 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp
+2022-09-20 11:20:34,888 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c_save
+2022-09-20 11:20:34,980 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c
+2022-09-20 11:20:34,985 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h_save
+2022-09-20 11:20:35,049 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h
+2022-09-20 11:20:35,063 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c_save
+2022-09-20 11:20:35,153 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c
+2022-09-20 11:20:35,158 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp_save
+2022-09-20 11:20:35,212 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp
+2022-09-20 11:20:35,227 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h_save
+2022-09-20 11:20:35,387 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h
+2022-09-20 11:20:35,425 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h_save
+2022-09-20 11:20:35,516 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h
+2022-09-20 11:20:35,526 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c_save
+2022-09-20 11:20:35,622 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c
+2022-09-20 11:20:36,421 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 226mS.
+2022-09-20 11:20:36,429 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-09-20 11:20:36,664 [INFO] ConfigFileManager:1394 - The Die is : DIE440
+2022-09-20 11:20:37,783 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1354mS.
+2022-09-20 11:20:37,784 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-20 11:20:37,789 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-20 11:21:37,065 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,529x289,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-09-20 11:21:57,358 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-09-20 11:22:01,669 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 459100968 Bytes (973078528)
+2022-09-20 11:22:02,800 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 482102272 Bytes (973078528)
+2022-09-20 11:22:03,219 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 510424080 Bytes (973078528)
+2022-09-20 11:22:03,411 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-09-20 11:22:03,411 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2022-09-20 11:22:03,411 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-09-20 11:22:03,412 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-09-20 11:22:03,412 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-09-20 11:22:03,412 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-09-20 11:22:03,661 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp_save
+2022-09-20 11:22:03,826 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp
+2022-09-20 11:22:03,867 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp_save
+2022-09-20 11:22:03,979 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp
+2022-09-20 11:22:04,040 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c_save
+2022-09-20 11:22:04,139 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c
+2022-09-20 11:22:04,145 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h_save
+2022-09-20 11:22:04,218 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h
+2022-09-20 11:22:04,234 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c_save
+2022-09-20 11:22:04,322 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c
+2022-09-20 11:22:04,326 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp_save
+2022-09-20 11:22:04,370 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp
+2022-09-20 11:22:04,382 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h_save
+2022-09-20 11:22:04,460 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h
+2022-09-20 11:22:04,483 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h_save
+2022-09-20 11:22:04,555 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h
+2022-09-20 11:22:04,564 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c_save
+2022-09-20 11:22:04,668 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c
+2022-09-20 11:22:05,234 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 220mS.
+2022-09-20 11:22:05,236 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-09-20 11:22:05,650 [INFO] ConfigFileManager:1394 - The Die is : DIE440
+2022-09-20 11:22:06,662 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1426mS.
+2022-09-20 11:22:06,663 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-09-20 11:22:06,666 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-20 11:47:47,851 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-09-20 11:47:57,807 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 278266736 Bytes (973078528)
+2022-09-20 11:47:58,829 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 301857648 Bytes (973078528)
+2022-09-20 11:47:59,300 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 330695536 Bytes (973078528)
+2022-09-20 11:47:59,530 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-09-20 11:47:59,531 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2022-09-20 11:47:59,531 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-09-20 11:47:59,531 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-09-20 11:47:59,531 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-09-20 11:47:59,532 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-09-20 11:47:59,733 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp_save
+2022-09-20 11:47:59,798 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp
+2022-09-20 11:47:59,828 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp_save
+2022-09-20 11:47:59,962 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp
+2022-09-20 11:48:00,045 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c_save
+2022-09-20 11:48:00,180 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c
+2022-09-20 11:48:00,187 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h_save
+2022-09-20 11:48:00,280 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h
+2022-09-20 11:48:00,302 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c_save
+2022-09-20 11:48:00,399 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c
+2022-09-20 11:48:00,404 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp_save
+2022-09-20 11:48:00,464 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp
+2022-09-20 11:48:00,478 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h_save
+2022-09-20 11:48:00,602 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h
+2022-09-20 11:48:00,628 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h_save
+2022-09-20 11:48:00,712 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h
+2022-09-20 11:48:00,721 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c_save
+2022-09-20 11:48:00,812 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c
+2022-09-20 11:48:01,652 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 256mS.
+2022-09-20 11:48:01,654 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-09-20 11:48:01,837 [INFO] ConfigFileManager:1394 - The Die is : DIE440
+2022-09-20 11:48:02,947 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1293mS.
+2022-09-20 11:48:02,949 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-09-20 11:48:02,955 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-20 13:35:13,003 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-09-20 13:35:14,101 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 251083264 Bytes (709885952)
+2022-09-20 13:35:15,232 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 274013976 Bytes (709885952)
+2022-09-20 13:35:15,684 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 303450624 Bytes (709885952)
+2022-09-20 13:35:15,974 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-09-20 13:35:15,975 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2022-09-20 13:35:15,975 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-09-20 13:35:15,975 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-09-20 13:35:15,975 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-09-20 13:35:15,976 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-09-20 13:35:16,351 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp_save
+2022-09-20 13:35:16,498 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp
+2022-09-20 13:35:16,528 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp_save
+2022-09-20 13:35:16,605 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp
+2022-09-20 13:35:16,654 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c_save
+2022-09-20 13:35:16,738 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c
+2022-09-20 13:35:16,745 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h_save
+2022-09-20 13:35:16,851 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h
+2022-09-20 13:35:16,876 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c_save
+2022-09-20 13:35:16,982 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c
+2022-09-20 13:35:16,986 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp_save
+2022-09-20 13:35:17,044 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp
+2022-09-20 13:35:17,059 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h_save
+2022-09-20 13:35:17,144 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h
+2022-09-20 13:35:17,172 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h_save
+2022-09-20 13:35:17,251 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h
+2022-09-20 13:35:17,259 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c_save
+2022-09-20 13:35:17,345 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c
+2022-09-20 13:35:18,172 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 227mS.
+2022-09-20 13:35:18,175 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-09-20 13:35:18,378 [INFO] ConfigFileManager:1394 - The Die is : DIE440
+2022-09-20 13:35:19,636 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1461mS.
+2022-09-20 13:35:19,637 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-09-20 13:35:19,641 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-09-20 14:38:46,863 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,529x245,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-09-20 14:38:48,256 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-09-20 14:39:12,338 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 350346488 Bytes (709885952)
+2022-09-20 14:39:13,480 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 374710616 Bytes (709885952)
+2022-09-20 14:39:13,920 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 405685920 Bytes (709885952)
+2022-09-20 14:39:14,151 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-09-20 14:39:14,151 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2022-09-20 14:39:14,151 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-09-20 14:39:14,151 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-09-20 14:39:14,151 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-09-20 14:39:14,152 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-09-20 14:39:14,281 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp_save
+2022-09-20 14:39:14,456 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\license.tmp
+2022-09-20 14:39:14,492 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp_save
+2022-09-20 14:39:14,601 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\gpio.tmp
+2022-09-20 14:39:14,679 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c_save
+2022-09-20 14:39:14,777 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_it.c
+2022-09-20 14:39:14,785 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h_save
+2022-09-20 14:39:14,847 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_it.h
+2022-09-20 14:39:14,863 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c_save
+2022-09-20 14:39:14,957 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\stm32f0xx_hal_msp.c
+2022-09-20 14:39:14,962 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp_save
+2022-09-20 14:39:15,008 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\MXTmpFiles\system.tmp
+2022-09-20 14:39:15,021 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h_save
+2022-09-20 14:39:15,098 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\stm32f0xx_hal_conf.h
+2022-09-20 14:39:15,118 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h_save
+2022-09-20 14:39:15,184 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Inc\main.h
+2022-09-20 14:39:15,193 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c_save
+2022-09-20 14:39:15,275 [INFO] CodeEngine:269 - Generated code: C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\Core\Src\main.c
+2022-09-20 14:39:15,923 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 217mS.
+2022-09-20 14:39:15,926 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-09-20 14:39:16,246 [INFO] ConfigFileManager:1394 - The Die is : DIE440
+2022-09-20 14:39:17,497 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1571mS.
+2022-09-20 14:39:17,498 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-09-20 14:39:17,501 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
