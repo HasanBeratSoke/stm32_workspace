@@ -1,0 +1,69 @@
+16:13:39 **** Incremental Build of configuration Debug for project I2C_GY-521 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:45: warning: "HAL_MAX_DELAY" redefined
+   45 | #define HAL_MAX_DELAY 100
+      | 
+In file included from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h:29,
+                 from ../Core/Inc/stm32f0xx_hal_conf.h:193,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h:60: note: this is the location of the previous definition
+   60 | #define HAL_MAX_DELAY      0xFFFFFFFFU
+      | 
+../Core/Src/main.c: In function 'gy_test':
+../Core/Src/main.c:91:10: warning: 'return' with a value, in function returning void [-Wreturn-type]
+   91 |   return 1;
+      |          ^
+../Core/Src/main.c:84:6: note: declared here
+   84 | void gy_test()
+      |      ^~~~~~~
+../Core/Src/main.c:93:10: warning: 'return' with a value, in function returning void [-Wreturn-type]
+   93 |   return 0;
+      |          ^
+../Core/Src/main.c:84:6: note: declared here
+   84 | void gy_test()
+      |      ^~~~~~~
+../Core/Src/main.c: In function 'gy_read':
+../Core/Src/main.c:103:48: warning: pointer targets in passing argument 5 of 'HAL_I2C_Mem_Read' differ in signedness [-Wpointer-sign]
+  103 |  HAL_I2C_Mem_Read(&hi2c1, (0x68<<1), 0x75 , 1, buffer, 1, 100);
+      |                                                ^~~~~~
+      |                                                |
+      |                                                int8_t * {aka signed char *}
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:241,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h:633:66: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int8_t *' {aka 'signed char *'}
+  633 |                                    uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                         ~~~~~~~~~^~~~~
+../Core/Src/main.c:109:10: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  109 |   return 1;
+      |          ^
+../Core/Src/main.c:98:6: note: declared here
+   98 | void gy_read()
+      |      ^~~~~~~
+../Core/Src/main.c:111:10: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  111 |   return 0;
+      |          ^
+../Core/Src/main.c:98:6: note: declared here
+   98 | void gy_read()
+      |      ^~~~~~~
+../Core/Src/main.c:100:10: warning: unused variable 'val' [-Wunused-variable]
+  100 |  int32_t val = 0;
+      |          ^~~
+arm-none-eabi-gcc -o "I2C_GY-521.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\I2C_GY-521\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="I2C_GY-521.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: I2C_GY-521.elf
+ 
+arm-none-eabi-size   I2C_GY-521.elf 
+arm-none-eabi-objdump -h -S  I2C_GY-521.elf  > "I2C_GY-521.list"
+   text	   data	    bss	    dec	    hex	filename
+  28024	    120	   1736	  29880	   74b8	I2C_GY-521.elf
+Finished building: default.size.stdout
+ 
+Finished building: I2C_GY-521.list
+ 
+
+16:13:40 Build Finished. 0 errors, 7 warnings. (took 747ms)
+
