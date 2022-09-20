@@ -12,3 +12,73 @@ Finished building: default.size.stdout
  
 Finished building: GY-521.list
  
+08:34:40 **** Incremental Build of configuration Debug for project GY-521 ****
+make -j12 all 
+arm-none-eabi-size   GY-521.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11556	     20	   1756	  13332	   3414	GY-521.elf
+Finished building: default.size.stdout
+ 
+08:36:44 **** Incremental Build of configuration Debug for project GY-521 ****
+make -j12 all 
+arm-none-eabi-size   GY-521.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11556	     20	   1756	  13332	   3414	GY-521.elf
+Finished building: default.size.stdout
+ 
+08:38:33 **** Incremental Build of configuration Debug for project GY-521 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "GY-521.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\GY-521\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="GY-521.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: GY-521.elf
+ 
+arm-none-eabi-size   GY-521.elf 
+arm-none-eabi-objdump -h -S  GY-521.elf  > "GY-521.list"
+   text	   data	    bss	    dec	    hex	filename
+  11548	     20	   1756	  13324	   340c	GY-521.elf
+Finished building: default.size.stdout
+ 
+Finished building: GY-521.list
+ 
+08:41:44 **** Incremental Build of configuration Debug for project GY-521 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "GY-521.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\GY-521\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="GY-521.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: GY-521.elf
+ 
+arm-none-eabi-size   GY-521.elf 
+arm-none-eabi-objdump -h -S  GY-521.elf  > "GY-521.list"
+   text	   data	    bss	    dec	    hex	filename
+  11712	     20	   1756	  13488	   34b0	GY-521.elf
+Finished building: default.size.stdout
+ 
+Finished building: GY-521.list
+ 
+08:42:59 **** Incremental Build of configuration Debug for project GY-521 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "GY-521.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\GY-521\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="GY-521.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: GY-521.elf
+ 
+arm-none-eabi-size   GY-521.elf 
+arm-none-eabi-objdump -h -S  GY-521.elf  > "GY-521.list"
+   text	   data	    bss	    dec	    hex	filename
+  13068	     20	   1756	  14844	   39fc	GY-521.elf
+Finished building: default.size.stdout
+ 
+Finished building: GY-521.list
+ 
+08:43:46 **** Incremental Build of configuration Debug for project GY-521 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "GY-521.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\GY-521\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="GY-521.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: GY-521.elf
+ 
+arm-none-eabi-size   GY-521.elf 
+arm-none-eabi-objdump -h -S  GY-521.elf  > "GY-521.list"
+   text	   data	    bss	    dec	    hex	filename
+  12904	     20	   1756	  14680	   3958	GY-521.elf
+Finished building: default.size.stdout
+ 
+Finished building: GY-521.list
+ 

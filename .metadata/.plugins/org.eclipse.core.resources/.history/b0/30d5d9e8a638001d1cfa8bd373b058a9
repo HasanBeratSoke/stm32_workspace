@@ -132,9 +132,9 @@ void MPU6050_Read_Accel (void)
 	     I have configured FS_SEL = 0. So I am dividing by 16384.0
 	     for more details check ACCEL_CONFIG Register              ****/
 
-	Ax = Accel_X_RAW/16384.0*100;
-	Ay = Accel_Y_RAW/16384.0*100;
-	Az = Accel_Z_RAW/16384.0*100;
+	Ax = Accel_X_RAW/16384.0;
+	Ay = Accel_Y_RAW/16384.0;
+	Az = Accel_Z_RAW/16384.0;
 }
 
 void MPU6050_Read_Gyro (void)

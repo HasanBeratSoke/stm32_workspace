@@ -79,7 +79,7 @@ int16_t Gyro_X_RAW = 0;
 int16_t Gyro_Y_RAW = 0;
 int16_t Gyro_Z_RAW = 0;
 
-int Ax, Ay, Az, Gx, Gy, Gz;
+float Ax, Ay, Az, Gx, Gy, Gz;
 
 
 void MPU6050_Init (void)
