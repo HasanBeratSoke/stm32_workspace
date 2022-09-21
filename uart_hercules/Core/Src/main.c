@@ -65,17 +65,17 @@ int value;
 uint8_t flag=0;
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
-    HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));
+    HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));//herculus konsolundan giridi alınması
     flag=1;
 }
 
 
 void comp()
 {
-	value = strcmp(Rx_data,val);
+	value = strcmp(Rx_data,val); //iki stringin kıyaslanması
 	if(value >= 0)
 	{
-		HAL_UART_Transmit(&huart1, acc, sizeof(acc), 100);
+		HAL_UART_Transmit(&huart1, acc, sizeof(acc), 100); //herculus consoluna yazdırılması
 	}
 	else
 	{
@@ -125,7 +125,7 @@ int main(void)
 
 	  if(flag==1)
 	 {
-		  flag=0;
+		  flag=0; //eger butona basıldıysa fonk calısıcaktır.
 		  comp();
 	 }
 	 HAL_Delay(1000);

@@ -50,20 +50,38 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART1_UART_Init(void);
 /* USER CODE BEGIN PFP */
-void helloWorld_ex(){
-		uint8_t data[] = "HELLO WORLD \r\n";
-		HAL_UART_Transmit(&huart1, data, sizeof(data), 10);
-		HAL_Delay(250);
-		//toggle LED;
-}
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint8_t Rx_data[20] = {0};
+char Rx_data[4];
+char val[] = "pass";
+char val2[] = "pass";
 uint8_t acc[] = "accept \r\n";
 uint8_t rej[] = "rejection\r\n";
+int value;
 
+uint8_t flag=0;
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+    HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));
+    flag=1;
+}
+
+
+void comp()
+{
+	value = strcmp(Rx_data,val);
+	if(value >= 0)
+	{
+		HAL_UART_Transmit(&huart1, acc, sizeof(acc), 100);
+	}
+	else
+	{
+		HAL_UART_Transmit(&huart1, rej, sizeof(rej), 100);
+	}
+}
 /* USER CODE END 0 */
 
 /**
@@ -96,7 +114,8 @@ int main(void)
   MX_GPIO_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));
+  //comp();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -104,15 +123,22 @@ int main(void)
   while (1)
   {
 
+	  if(flag==1)
+	 {
+		  flag=0;
+		  comp();
+	 }
+	 HAL_Delay(1000);
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  //HAL_UART_Receive(&huart1, Rx_data, sizeof(Rx_data), 1000);
-	  //HAL_UART_Transmit(&huart1, acc, sizeof(acc), 100);
-	  //helloWorld_ex();
-	  if(HAL_UART_Transmit(&huart1, acc, sizeof(acc), 100) != HAL_OK)
-		  Error_Handler();
-	  //HAL_Delay (250);
+
+
+	  //HAL_Delay(1000);
+	  HAL_GPIO_TogglePin (GPIOC, GPIO_PIN_8);
+	  HAL_Delay (250);
+
   }
   /* USER CODE END 3 */
 }
@@ -181,7 +207,7 @@ static void MX_USART1_UART_Init(void)
   huart1.Init.BaudRate = 38400;
   huart1.Init.WordLength = UART_WORDLENGTH_8B;
   huart1.Init.StopBits = UART_STOPBITS_1;
-  huart1.Init.Parity = UART_PARITY_EVEN;
+  huart1.Init.Parity = UART_PARITY_NONE;
   huart1.Init.Mode = UART_MODE_TX_RX;
   huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
   huart1.Init.OverSampling = UART_OVERSAMPLING_16;

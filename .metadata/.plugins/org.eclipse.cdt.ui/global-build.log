@@ -805,3 +805,10 @@ Finished building: default.size.stdout
  
 Finished building: uart_hercules.list
  
+08:23:18 **** Incremental Build of configuration Debug for project uart_hercules ****
+make -j12 all 
+arm-none-eabi-size   uart_hercules.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11544	     52	   1716	  13312	   3400	uart_hercules.elf
+Finished building: default.size.stdout
+ 

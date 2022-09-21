@@ -1,47 +1,10 @@
-16:47:14 **** Incremental Build of configuration Debug for project uart_hercules ****
+08:23:18 **** Incremental Build of configuration Debug for project uart_hercules ****
 make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
-../Core/Src/main.c:68:34: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-   68 |     HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));
-      |                                  ^~~~~~~
-      |                                  |
-      |                                  char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-../Core/Src/main.c: In function 'comp':
-../Core/Src/main.c:75:10: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
-   75 |  value = strcmp(Rx_data,val);
-      |          ^~~~~~
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:117:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-  117 |   HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));
-      |                                ^~~~~~~
-      |                                |
-      |                                char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-arm-none-eabi-gcc -o "uart_hercules.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\uart_hercules\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_hercules.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: uart_hercules.elf
- 
 arm-none-eabi-size   uart_hercules.elf 
-arm-none-eabi-objdump -h -S  uart_hercules.elf  > "uart_hercules.list"
    text	   data	    bss	    dec	    hex	filename
   11544	     52	   1716	  13312	   3400	uart_hercules.elf
 Finished building: default.size.stdout
  
-Finished building: uart_hercules.list
- 
 
-16:47:15 Build Finished. 0 errors, 3 warnings. (took 689ms)
+08:23:19 Build Finished. 0 errors, 0 warnings. (took 999ms)
 

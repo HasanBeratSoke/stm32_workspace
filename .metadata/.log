@@ -958,3 +958,18 @@ java.lang.Exception: Thread id: 1 has terminated
 !MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@1b176bef): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Suspend operation timeout.' resulted in an error.
 !SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2022-09-20 16:40:38.151
 !MESSAGE Suspend operation timeout.
+!SESSION 2022-09-21 08:14:22.411 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-09-21 08:14:46.404
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-09-21 08:14:46.517
+!MESSAGE Log4j initialized with config file C:\Users\hasan\Desktop\stm32_workspace\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-09-21 08:15:01.690
+!MESSAGE Started RMI Server, listening on port 41337
