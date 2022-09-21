@@ -1,5 +1,4 @@
 Rx_data
-acc
-rej
-val
-value
+flag
+w_data
+a
