@@ -1,506 +1,30 @@
-16:34:34 **** Incremental Build of configuration Debug for project hercules-lcd ****
+11:18:52 **** Incremental Build of configuration Debug for project hercules-lcd ****
 make -j12 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c:68:6: error: variably modified 'w_data' at file scope
-   68 | char w_data[a];
-      |      ^~~~~~
-../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
-../Core/Src/main.c:75:34: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-   75 |     HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));//herculus konsolundan giridi alınması
-      |                                  ^~~~~~~
-      |                                  |
-      |                                  char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:136:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-  136 |   HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));
-      |                                ^~~~~~~
-      |                                |
-      |                                char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
-"make -j12 all" terminated with exit code 2. Build might be incomplete.
-16:37:14 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
-../Core/Src/main.c:76:34: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-   76 |     HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));//herculus konsolundan giridi alınması
-      |                                  ^~~~~~~
-      |                                  |
-      |                                  char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:136:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-  136 |   HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));
-      |                                ^~~~~~~
-      |                                |
-      |                                char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: hercules-lcd.elf
- 
-arm-none-eabi-size   hercules-lcd.elf 
-arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
-   text	   data	    bss	    dec	    hex	filename
-  13884	     20	   1804	  15708	   3d5c	hercules-lcd.elf
-Finished building: default.size.stdout
- 
-Finished building: hercules-lcd.list
- 
-16:37:50 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
-../Core/Src/main.c:76:34: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-   76 |     HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));//herculus konsolundan giridi alınması
-      |                                  ^~~~~~~
-      |                                  |
-      |                                  char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:137:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-  137 |   HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));
-      |                                ^~~~~~~
-      |                                |
-      |                                char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: hercules-lcd.elf
- 
-arm-none-eabi-size   hercules-lcd.elf 
-arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
-   text	   data	    bss	    dec	    hex	filename
-  13884	     20	   1804	  15708	   3d5c	hercules-lcd.elf
-Finished building: default.size.stdout
- 
-Finished building: hercules-lcd.list
- 
-16:39:36 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
-../Core/Src/main.c:76:34: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-   76 |     HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));//herculus konsolundan giridi alınması
-      |                                  ^~~~~~~
-      |                                  |
-      |                                  char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:137:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-  137 |   HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));
-      |                                ^~~~~~~
-      |                                |
-      |                                char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: hercules-lcd.elf
- 
-arm-none-eabi-size   hercules-lcd.elf 
-arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
-   text	   data	    bss	    dec	    hex	filename
-  13884	     20	   1804	  15708	   3d5c	hercules-lcd.elf
-Finished building: default.size.stdout
- 
-Finished building: hercules-lcd.list
- 
-16:41:46 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-size   hercules-lcd.elf 
-   text	   data	    bss	    dec	    hex	filename
-  13884	     20	   1804	  15708	   3d5c	hercules-lcd.elf
-Finished building: default.size.stdout
- 
-16:42:00 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-size   hercules-lcd.elf 
-   text	   data	    bss	    dec	    hex	filename
-  13884	     20	   1804	  15708	   3d5c	hercules-lcd.elf
-Finished building: default.size.stdout
- 
-16:48:06 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
-../Core/Src/main.c:76:34: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-   76 |     HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));//herculus konsolundan giridi alınması
-      |                                  ^~~~~~~
-      |                                  |
-      |                                  char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:135:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-  135 |   HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));
-      |                                ^~~~~~~
-      |                                |
-      |                                char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: hercules-lcd.elf
- 
-arm-none-eabi-size   hercules-lcd.elf 
-arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
-   text	   data	    bss	    dec	    hex	filename
-  13872	     20	   1804	  15696	   3d50	hercules-lcd.elf
-Finished building: default.size.stdout
- 
-Finished building: hercules-lcd.list
- 
-16:49:15 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
-../Core/Src/main.c:76:34: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-   76 |     HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));//herculus konsolundan giridi alınması
-      |                                  ^~~~~~~
-      |                                  |
-      |                                  char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:135:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-  135 |   HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));
-      |                                ^~~~~~~
-      |                                |
-      |                                char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: hercules-lcd.elf
- 
-arm-none-eabi-size   hercules-lcd.elf 
-arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
-   text	   data	    bss	    dec	    hex	filename
-  13872	     20	   1804	  15696	   3d50	hercules-lcd.elf
-Finished building: default.size.stdout
- 
-Finished building: hercules-lcd.list
- 
-16:50:21 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
-../Core/Src/main.c:76:34: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-   76 |     HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));//herculus konsolundan giridi alınması
-      |                                  ^~~~~~~
-      |                                  |
-      |                                  char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:135:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-  135 |   HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));
-      |                                ^~~~~~~
-      |                                |
-      |                                char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: hercules-lcd.elf
- 
-arm-none-eabi-size   hercules-lcd.elf 
-arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
-   text	   data	    bss	    dec	    hex	filename
-  13872	     20	   1804	  15696	   3d50	hercules-lcd.elf
-Finished building: default.size.stdout
- 
-Finished building: hercules-lcd.list
- 
-16:51:06 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
-../Core/Src/main.c:76:34: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-   76 |     HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));//herculus konsolundan giridi alınması
-      |                                  ^~~~~~~
-      |                                  |
-      |                                  char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'HAL_UARTEx_RxEventCallback':
+../Core/Src/main.c:94:3: warning: implicit declaration of function 'print_lcd' [-Wimplicit-function-declaration]
+   94 |   print_lcd();
+      |   ^~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:99:6: warning: conflicting types for 'print_lcd'
+   99 | void print_lcd(){
+      |      ^~~~~~~~~
+../Core/Src/main.c:94:3: note: previous implicit declaration of 'print_lcd' was here
+   94 |   print_lcd();
+      |   ^~~~~~~~~
+../Core/Src/main.c: In function 'print_lcd':
+../Core/Src/main.c:103:18: warning: pointer targets in passing argument 1 of 'lcd_send_string' differ in signedness [-Wpointer-sign]
+  103 |  lcd_send_string(Rx_data);
+      |                  ^~~~~~~
+      |                  |
+      |                  uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+    9 | void lcd_send_string (char *str);  // send string to the lcd
+      |                       ~~~~~~^~~
 ../Core/Src/main.c: In function 'write_lcd':
-../Core/Src/main.c:85:20: error: empty character constant
-   85 |   if(Rx_data[i] != '')
-      |                    ^~
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:135:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-  135 |   HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));
-      |                                ^~~~~~~
-      |                                |
-      |                                char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
-"make -j12 all" terminated with exit code 2. Build might be incomplete.
-16:51:21 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
-../Core/Src/main.c:76:34: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-   76 |     HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));//herculus konsolundan giridi alınması
-      |                                  ^~~~~~~
-      |                                  |
-      |                                  char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:135:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-  135 |   HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));
-      |                                ^~~~~~~
-      |                                |
-      |                                char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: hercules-lcd.elf
- 
-arm-none-eabi-size   hercules-lcd.elf 
-arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
-   text	   data	    bss	    dec	    hex	filename
-  13872	     20	   1804	  15696	   3d50	hercules-lcd.elf
-Finished building: default.size.stdout
- 
-Finished building: hercules-lcd.list
- 
-16:52:15 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c:65:18: error: invalid initializer
-   65 | char Rx_data[16]=0;
-      |                  ^
-../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
-../Core/Src/main.c:76:34: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-   76 |     HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));//herculus konsolundan giridi alınması
-      |                                  ^~~~~~~
-      |                                  |
-      |                                  char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:135:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-  135 |   HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));
-      |                                ^~~~~~~
-      |                                |
-      |                                char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
-"make -j12 all" terminated with exit code 2. Build might be incomplete.
-16:52:29 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
-../Core/Src/main.c:76:34: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-   76 |     HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));//herculus konsolundan giridi alınması
-      |                                  ^~~~~~~
-      |                                  |
-      |                                  char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:135:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
-  135 |   HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));
-      |                                ^~~~~~~
-      |                                |
-      |                                char *
-In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
-                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1531:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
- 1531 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
-      |                                                                  ~~~~~~~~~^~~~~
-arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: hercules-lcd.elf
- 
-arm-none-eabi-size   hercules-lcd.elf 
-arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
-   text	   data	    bss	    dec	    hex	filename
-  13872	     20	   1804	  15696	   3d50	hercules-lcd.elf
-Finished building: default.size.stdout
- 
-Finished building: hercules-lcd.list
- 
-16:53:58 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: hercules-lcd.elf
- 
-arm-none-eabi-size   hercules-lcd.elf 
-arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
-   text	   data	    bss	    dec	    hex	filename
-  13872	     20	   1804	  15696	   3d50	hercules-lcd.elf
-Finished building: default.size.stdout
- 
-Finished building: hercules-lcd.list
- 
-16:54:29 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: hercules-lcd.elf
- 
-arm-none-eabi-size   hercules-lcd.elf 
-arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
-   text	   data	    bss	    dec	    hex	filename
-  13872	     20	   1804	  15696	   3d50	hercules-lcd.elf
-Finished building: default.size.stdout
- 
-Finished building: hercules-lcd.list
- 
-16:55:31 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: hercules-lcd.elf
- 
-arm-none-eabi-size   hercules-lcd.elf 
-arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
-   text	   data	    bss	    dec	    hex	filename
-  13872	     20	   1804	  15696	   3d50	hercules-lcd.elf
-Finished building: default.size.stdout
- 
-Finished building: hercules-lcd.list
- 
-16:58:16 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
-../Core/Src/main.c:77:15: error: expected expression before '{' token
-   77 |     Rx_data = {0};
-      |               ^
-make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
-"make -j12 all" terminated with exit code 2. Build might be incomplete.
-16:58:32 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
-../Core/Src/main.c:77:13: error: expected expression before ']' token
-   77 |     Rx_data[] = {0};
-      |             ^
-make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
-"make -j12 all" terminated with exit code 2. Build might be incomplete.
-17:02:20 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'write_lcd':
-../Core/Src/main.c:97:19: warning: pointer targets in passing argument 1 of 'lcd_send_string' differ in signedness [-Wpointer-sign]
-   97 |   lcd_send_string(w_data);
+../Core/Src/main.c:126:19: warning: pointer targets in passing argument 1 of 'lcd_send_string' differ in signedness [-Wpointer-sign]
+  126 |   lcd_send_string(w_data);
       |                   ^~~~~~
       |                   |
       |                   uint8_t * {aka unsigned char *}
@@ -514,17 +38,73 @@ Finished building target: hercules-lcd.elf
 arm-none-eabi-size   hercules-lcd.elf 
 arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
    text	   data	    bss	    dec	    hex	filename
-  14028	     20	   1804	  15852	   3dec	hercules-lcd.elf
+  14892	     20	   1940	  16852	   41d4	hercules-lcd.elf
 Finished building: default.size.stdout
  
 Finished building: hercules-lcd.list
  
-17:03:59 **** Incremental Build of configuration Debug for project hercules-lcd ****
+11:18:59 **** Incremental Build of configuration Debug for project hercules-lcd ****
+make -j12 all 
+arm-none-eabi-size   hercules-lcd.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14892	     20	   1940	  16852	   41d4	hercules-lcd.elf
+Finished building: default.size.stdout
+ 
+11:21:01 **** Incremental Build of configuration Debug for project hercules-lcd ****
 make -j12 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_UARTEx_RxEventCallback':
+../Core/Src/main.c:94:3: warning: implicit declaration of function 'print_lcd' [-Wimplicit-function-declaration]
+   94 |   print_lcd();
+      |   ^~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:99:6: warning: conflicting types for 'print_lcd'
+   99 | void print_lcd(){
+      |      ^~~~~~~~~
+../Core/Src/main.c:94:3: note: previous implicit declaration of 'print_lcd' was here
+   94 |   print_lcd();
+      |   ^~~~~~~~~
+../Core/Src/main.c: In function 'print_lcd':
+../Core/Src/main.c:103:18: warning: pointer targets in passing argument 1 of 'lcd_send_string' differ in signedness [-Wpointer-sign]
+  103 |  lcd_send_string(Rx_data);
+      |                  ^~~~~~~
+      |                  |
+      |                  uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+    9 | void lcd_send_string (char *str);  // send string to the lcd
+      |                       ~~~~~~^~~
+../Core/Src/main.c:104:10: error: expected expression before ']' token
+  104 |  Rx_data[] = {0};
+      |          ^
 ../Core/Src/main.c: In function 'write_lcd':
-../Core/Src/main.c:97:19: warning: pointer targets in passing argument 1 of 'lcd_send_string' differ in signedness [-Wpointer-sign]
-   97 |   lcd_send_string(w_data);
+../Core/Src/main.c:127:19: warning: pointer targets in passing argument 1 of 'lcd_send_string' differ in signedness [-Wpointer-sign]
+  127 |   lcd_send_string(w_data);
+      |                   ^~~~~~
+      |                   |
+      |                   uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+    9 | void lcd_send_string (char *str);  // send string to the lcd
+      |                       ~~~~~~^~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+11:29:24 **** Incremental Build of configuration Debug for project hercules-lcd ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'print_lcd':
+../Core/Src/main.c:110:18: warning: pointer targets in passing argument 1 of 'lcd_send_string' differ in signedness [-Wpointer-sign]
+  110 |  lcd_send_string(Rx_data);
+      |                  ^~~~~~~
+      |                  |
+      |                  uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+    9 | void lcd_send_string (char *str);  // send string to the lcd
+      |                       ~~~~~~^~~
+../Core/Src/main.c: In function 'write_lcd':
+../Core/Src/main.c:129:19: warning: pointer targets in passing argument 1 of 'lcd_send_string' differ in signedness [-Wpointer-sign]
+  129 |   lcd_send_string(w_data);
       |                   ^~~~~~
       |                   |
       |                   uint8_t * {aka unsigned char *}
@@ -538,55 +118,7 @@ Finished building target: hercules-lcd.elf
 arm-none-eabi-size   hercules-lcd.elf 
 arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
    text	   data	    bss	    dec	    hex	filename
-  14024	     20	   1804	  15848	   3de8	hercules-lcd.elf
-Finished building: default.size.stdout
- 
-Finished building: hercules-lcd.list
- 
-17:08:00 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'write_lcd':
-../Core/Src/main.c:96:19: warning: pointer targets in passing argument 1 of 'lcd_send_string' differ in signedness [-Wpointer-sign]
-   96 |   lcd_send_string(w_data);
-      |                   ^~~~~~
-      |                   |
-      |                   uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:24:
-../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-    9 | void lcd_send_string (char *str);  // send string to the lcd
-      |                       ~~~~~~^~~
-arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: hercules-lcd.elf
- 
-arm-none-eabi-size   hercules-lcd.elf 
-arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
-   text	   data	    bss	    dec	    hex	filename
-  14000	     20	   1804	  15824	   3dd0	hercules-lcd.elf
-Finished building: default.size.stdout
- 
-Finished building: hercules-lcd.list
- 
-17:11:30 **** Incremental Build of configuration Debug for project hercules-lcd ****
-make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'write_lcd':
-../Core/Src/main.c:96:19: warning: pointer targets in passing argument 1 of 'lcd_send_string' differ in signedness [-Wpointer-sign]
-   96 |   lcd_send_string(w_data);
-      |                   ^~~~~~
-      |                   |
-      |                   uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:24:
-../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-    9 | void lcd_send_string (char *str);  // send string to the lcd
-      |                       ~~~~~~^~~
-arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: hercules-lcd.elf
- 
-arm-none-eabi-size   hercules-lcd.elf 
-arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
-   text	   data	    bss	    dec	    hex	filename
-  13972	     20	   1804	  15796	   3db4	hercules-lcd.elf
+  14920	     20	   1940	  16880	   41f0	hercules-lcd.elf
 Finished building: default.size.stdout
  
 Finished building: hercules-lcd.list

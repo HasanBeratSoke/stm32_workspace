@@ -65,12 +65,21 @@ static void MX_USART1_UART_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 #define BUFFSIZE 20
-uint8_t sizeval = 0;
 uint8_t Rx_data[BUFFSIZE];
 int a = 0;
 
-uint8_t flag=0;
+//char val[1];
 
+//char main_buff[BUFFSIZE];
+//uint8_t acc[] = "accept \r\n";
+
+//uint8_t flag=0;
+/*void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+    HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));//herculus konsolundan giridi alınması
+
+    flag=1;
+}*/
 
 void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)//hat boşa cıktığında olması girecek fonksiyon
 {
@@ -78,12 +87,11 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)//hat b
 	{
 		HAL_UARTEx_ReceiveToIdle_DMA(&huart1, Rx_data, BUFFSIZE);
 		__HAL_DMA_DISABLE_IT(&hdma_usart1_rx, DMA_IT_HT); // trasferin yarısındayken trasferi kesmeemeesi için kullanılan fonksiyondur.
-		sizeval = Size;
-		for (int i = sizeval; i < BUFFSIZE; i++)
-		{
-			Rx_data[i] = 0;
-		}
-		flag = 1; //haberleşmenin bittiği ve gösteren flag
+
+
+
+		print_lcd();
+
 	}
 }
 
@@ -92,11 +100,33 @@ void print_lcd(){
 	lcd_clear();
 	lcd_put_cur(0, 0);
 	lcd_send_string(Rx_data);
+	for (int i = Size; i < BUFFSIZE; i++)
+			{
+				  Rx_data[i] = 0;
+			}
 	HAL_Delay(500);
 }
 
 
+void write_lcd()
+{
+	a = 0;
+	for(int i=0; i<16; i++){
+		if(Rx_data[i] != 0)
+		{
+			a++;
+		}
+	}
+	uint8_t w_data[a];
+	for(int i = 0; i<a; i++){
+		w_data[i] = Rx_data[i];
+	}
+		lcd_put_cur(0, 0);
+		lcd_send_string(w_data);
+		HAL_Delay(500);
 
+
+}
 
 
 /* USER CODE END 0 */
@@ -141,7 +171,6 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
 	  HAL_UARTEx_ReceiveToIdle_DMA(&huart1, Rx_data, BUFFSIZE);
 	   __HAL_DMA_DISABLE_IT(&hdma_usart1_rx, DMA_IT_HT); // trasferin yarısındayken trasferi kesmeemeesi için kullanılan fonksiyondur.
 
@@ -149,13 +178,14 @@ int main(void)
 	  HAL_UART_Receive_IT(&huart1, Rx_data, sizeof(Rx_data));
 	  HAL_Delay(250);
 	  write_lcd();*/
-	  if(flag == 1)
+	  /*if(flag == 1)
 	  {
 		  flag = 0;
-		  print_lcd();
 
-	  }
-	  HAL_Delay(500);
+		  HAL_Delay(250);
+		  write_lcd();
+
+	  }*/
 
     /* USER CODE END WHILE */
 
