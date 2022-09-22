@@ -1,37 +1,10 @@
-11:29:24 **** Incremental Build of configuration Debug for project hercules-lcd ****
+13:52:19 **** Incremental Build of configuration Debug for project hercules-lcd ****
 make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'print_lcd':
-../Core/Src/main.c:110:18: warning: pointer targets in passing argument 1 of 'lcd_send_string' differ in signedness [-Wpointer-sign]
-  110 |  lcd_send_string(Rx_data);
-      |                  ^~~~~~~
-      |                  |
-      |                  uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:24:
-../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-    9 | void lcd_send_string (char *str);  // send string to the lcd
-      |                       ~~~~~~^~~
-../Core/Src/main.c: In function 'write_lcd':
-../Core/Src/main.c:129:19: warning: pointer targets in passing argument 1 of 'lcd_send_string' differ in signedness [-Wpointer-sign]
-  129 |   lcd_send_string(w_data);
-      |                   ^~~~~~
-      |                   |
-      |                   uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:24:
-../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-    9 | void lcd_send_string (char *str);  // send string to the lcd
-      |                       ~~~~~~^~~
-arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: hercules-lcd.elf
- 
 arm-none-eabi-size   hercules-lcd.elf 
-arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
    text	   data	    bss	    dec	    hex	filename
   14920	     20	   1940	  16880	   41f0	hercules-lcd.elf
 Finished building: default.size.stdout
  
-Finished building: hercules-lcd.list
- 
 
-11:29:25 Build Finished. 0 errors, 2 warnings. (took 748ms)
+13:52:20 Build Finished. 0 errors, 0 warnings. (took 380ms)
 

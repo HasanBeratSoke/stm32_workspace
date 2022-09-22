@@ -123,3 +123,267 @@ Finished building: default.size.stdout
  
 Finished building: hercules-lcd.list
  
+13:25:34 **** Incremental Build of configuration Debug for project hercules-lcd ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'print_lcd':
+../Core/Src/main.c:94:18: warning: pointer targets in passing argument 1 of 'lcd_send_string' differ in signedness [-Wpointer-sign]
+   94 |  lcd_send_string(Rx_data);
+      |                  ^~~~~~~
+      |                  |
+      |                  uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+    9 | void lcd_send_string (char *str);  // send string to the lcd
+      |                       ~~~~~~^~~
+arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: hercules-lcd.elf
+ 
+arm-none-eabi-size   hercules-lcd.elf 
+arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
+   text	   data	    bss	    dec	    hex	filename
+  14920	     20	   1940	  16880	   41f0	hercules-lcd.elf
+Finished building: default.size.stdout
+ 
+Finished building: hercules-lcd.list
+ 
+13:27:18 **** Incremental Build of configuration Debug for project hercules-lcd ****
+make -j12 all 
+arm-none-eabi-size   hercules-lcd.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14920	     20	   1940	  16880	   41f0	hercules-lcd.elf
+Finished building: default.size.stdout
+ 
+13:31:44 **** Incremental Build of configuration Debug for project hercules-lcd ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'print_lcd':
+../Core/Src/main.c:96:26: warning: passing argument 1 of 'lcd_send_string' makes pointer from integer without a cast [-Wint-conversion]
+   96 |   lcd_send_string(Rx_data[i]);
+      |                   ~~~~~~~^~~
+      |                          |
+      |                          uint8_t {aka unsigned char}
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t' {aka 'unsigned char'}
+    9 | void lcd_send_string (char *str);  // send string to the lcd
+      |                       ~~~~~~^~~
+arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: hercules-lcd.elf
+ 
+arm-none-eabi-size   hercules-lcd.elf 
+arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
+   text	   data	    bss	    dec	    hex	filename
+  14972	     20	   1940	  16932	   4224	hercules-lcd.elf
+Finished building: default.size.stdout
+ 
+Finished building: hercules-lcd.list
+ 
+13:32:55 **** Incremental Build of configuration Debug for project hercules-lcd ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'print_lcd':
+../Core/Src/main.c:97:26: warning: passing argument 1 of 'lcd_send_string' makes pointer from integer without a cast [-Wint-conversion]
+   97 |   lcd_send_string(Rx_data[i]);
+      |                   ~~~~~~~^~~
+      |                          |
+      |                          uint8_t {aka unsigned char}
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t' {aka 'unsigned char'}
+    9 | void lcd_send_string (char *str);  // send string to the lcd
+      |                       ~~~~~~^~~
+../Core/Src/main.c:100:27: warning: passing argument 1 of 'lcd_send_string' makes pointer from integer without a cast [-Wint-conversion]
+  100 |    lcd_send_string(Rx_data[i]);
+      |                    ~~~~~~~^~~
+      |                           |
+      |                           uint8_t {aka unsigned char}
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t' {aka 'unsigned char'}
+    9 | void lcd_send_string (char *str);  // send string to the lcd
+      |                       ~~~~~~^~~
+arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: hercules-lcd.elf
+ 
+arm-none-eabi-size   hercules-lcd.elf 
+arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
+   text	   data	    bss	    dec	    hex	filename
+  14988	     20	   1940	  16948	   4234	hercules-lcd.elf
+Finished building: default.size.stdout
+ 
+Finished building: hercules-lcd.list
+ 
+13:37:17 **** Incremental Build of configuration Debug for project hercules-lcd ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'print_lcd':
+../Core/Src/main.c:94:28: error: 'i' undeclared (first use in this function)
+   94 |    lcd_send_string(Rx_data[i]);
+      |                            ^
+../Core/Src/main.c:94:28: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:103:8: error: 'j' undeclared (first use in this function)
+  103 |   for (j = 0; j < 16; j++) {
+      |        ^
+../Core/Src/main.c:108:26: warning: passing argument 1 of 'lcd_send_string' makes pointer from integer without a cast [-Wint-conversion]
+  108 |   lcd_send_string(Rx_data[i]);
+      |                   ~~~~~~~^~~
+      |                          |
+      |                          uint8_t {aka unsigned char}
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t' {aka 'unsigned char'}
+    9 | void lcd_send_string (char *str);  // send string to the lcd
+      |                       ~~~~~~^~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+13:37:36 **** Incremental Build of configuration Debug for project hercules-lcd ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'print_lcd':
+../Core/Src/main.c:95:7: error: 'i' undeclared (first use in this function)
+   95 |    if(i > 16){
+      |       ^
+../Core/Src/main.c:95:7: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:103:8: error: 'j' undeclared (first use in this function)
+  103 |   for (j = 0; j < 16; j++) {
+      |        ^
+../Core/Src/main.c:108:26: warning: passing argument 1 of 'lcd_send_string' makes pointer from integer without a cast [-Wint-conversion]
+  108 |   lcd_send_string(Rx_data[i]);
+      |                   ~~~~~~~^~~
+      |                          |
+      |                          uint8_t {aka unsigned char}
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t' {aka 'unsigned char'}
+    9 | void lcd_send_string (char *str);  // send string to the lcd
+      |                       ~~~~~~^~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+13:37:50 **** Incremental Build of configuration Debug for project hercules-lcd ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:100:2: error: expected identifier or '(' before 'for'
+  100 |  for(int i = 0;i<16;i++)
+      |  ^~~
+../Core/Src/main.c:100:17: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token
+  100 |  for(int i = 0;i<16;i++)
+      |                 ^
+../Core/Src/main.c:100:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before '++' token
+  100 |  for(int i = 0;i<16;i++)
+      |                      ^~
+../Core/Src/main.c:113:12: error: expected declaration specifiers or '...' before numeric constant
+  113 |  HAL_Delay(500);
+      |            ^~~
+../Core/Src/main.c:114:1: error: expected identifier or '(' before '}' token
+  114 | }
+      | ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+13:38:53 **** Incremental Build of configuration Debug for project hercules-lcd ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'print_lcd':
+../Core/Src/main.c:106:27: warning: passing argument 1 of 'lcd_send_string' makes pointer from integer without a cast [-Wint-conversion]
+  106 |    lcd_send_string(Rx_data[j]);
+      |                    ~~~~~~~^~~
+      |                           |
+      |                           uint8_t {aka unsigned char}
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t' {aka 'unsigned char'}
+    9 | void lcd_send_string (char *str);  // send string to the lcd
+      |                       ~~~~~~^~~
+../Core/Src/main.c:109:26: warning: passing argument 1 of 'lcd_send_string' makes pointer from integer without a cast [-Wint-conversion]
+  109 |   lcd_send_string(Rx_data[i]);
+      |                   ~~~~~~~^~~
+      |                          |
+      |                          uint8_t {aka unsigned char}
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t' {aka 'unsigned char'}
+    9 | void lcd_send_string (char *str);  // send string to the lcd
+      |                       ~~~~~~^~~
+arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: hercules-lcd.elf
+ 
+arm-none-eabi-size   hercules-lcd.elf 
+arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
+   text	   data	    bss	    dec	    hex	filename
+  14940	     20	   1940	  16900	   4204	hercules-lcd.elf
+Finished building: default.size.stdout
+ 
+Finished building: hercules-lcd.list
+ 
+13:40:36 **** Incremental Build of configuration Debug for project hercules-lcd ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'print_lcd':
+../Core/Src/main.c:94:18: warning: pointer targets in passing argument 1 of 'lcd_send_string' differ in signedness [-Wpointer-sign]
+   94 |  lcd_send_string(Rx_data);
+      |                  ^~~~~~~
+      |                  |
+      |                  uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+    9 | void lcd_send_string (char *str);  // send string to the lcd
+      |                       ~~~~~~^~~
+arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: hercules-lcd.elf
+ 
+arm-none-eabi-size   hercules-lcd.elf 
+arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
+   text	   data	    bss	    dec	    hex	filename
+  14920	     20	   1940	  16880	   41f0	hercules-lcd.elf
+Finished building: default.size.stdout
+ 
+Finished building: hercules-lcd.list
+ 
+13:42:09 **** Incremental Build of configuration Debug for project hercules-lcd ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'print_lcd':
+../Core/Src/main.c:94:18: warning: pointer targets in passing argument 1 of 'lcd_send_string' differ in signedness [-Wpointer-sign]
+   94 |  lcd_send_string(Rx_data);
+      |                  ^~~~~~~
+      |                  |
+      |                  uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+    9 | void lcd_send_string (char *str);  // send string to the lcd
+      |                       ~~~~~~^~~
+arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: hercules-lcd.elf
+ 
+arm-none-eabi-size   hercules-lcd.elf 
+arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
+   text	   data	    bss	    dec	    hex	filename
+  14920	     20	   1940	  16880	   41f0	hercules-lcd.elf
+Finished building: default.size.stdout
+ 
+Finished building: hercules-lcd.list
+ 
+13:43:04 **** Incremental Build of configuration Debug for project hercules-lcd ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'print_lcd':
+../Core/Src/main.c:94:18: warning: pointer targets in passing argument 1 of 'lcd_send_string' differ in signedness [-Wpointer-sign]
+   94 |  lcd_send_string(Rx_data);
+      |                  ^~~~~~~
+      |                  |
+      |                  uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/i2c-lcd.h:9:29: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+    9 | void lcd_send_string (char *str);  // send string to the lcd
+      |                       ~~~~~~^~~
+arm-none-eabi-gcc -o "hercules-lcd.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\hercules-lcd\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hercules-lcd.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: hercules-lcd.elf
+ 
+arm-none-eabi-size   hercules-lcd.elf 
+arm-none-eabi-objdump -h -S  hercules-lcd.elf  > "hercules-lcd.list"
+   text	   data	    bss	    dec	    hex	filename
+  14920	     20	   1940	  16880	   41f0	hercules-lcd.elf
+Finished building: default.size.stdout
+ 
+Finished building: hercules-lcd.list
+ 
+13:52:19 **** Incremental Build of configuration Debug for project hercules-lcd ****
+make -j12 all 
+arm-none-eabi-size   hercules-lcd.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14920	     20	   1940	  16880	   41f0	hercules-lcd.elf
+Finished building: default.size.stdout
+ 

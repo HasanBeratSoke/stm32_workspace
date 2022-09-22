@@ -27,23 +27,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  11 .ARM.attributes 00000028  00000000  00000000  0002000c  2**0
                   CONTENTS, READONLY
- 12 .debug_info   0000cc04  00000000  00000000  00020034  2**0
+ 12 .debug_info   0000cb98  00000000  00000000  00020034  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_abbrev 00001f80  00000000  00000000  0002cc38  2**0
+ 13 .debug_abbrev 00001f5d  00000000  00000000  0002cbcc  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_aranges 00000a18  00000000  00000000  0002ebb8  2**3
+ 14 .debug_aranges 00000a10  00000000  00000000  0002eb30  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_ranges 00000950  00000000  00000000  0002f5d0  2**3
+ 15 .debug_ranges 00000948  00000000  00000000  0002f540  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  00011b59  00000000  00000000  0002ff20  2**0
+ 16 .debug_macro  00011b59  00000000  00000000  0002fe88  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   0000da78  00000000  00000000  00041a79  2**0
+ 17 .debug_line   0000da13  00000000  00000000  000419e1  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    00068e02  00000000  00000000  0004f4f1  2**0
+ 18 .debug_str    00068df1  00000000  00000000  0004f3f4  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000050  00000000  00000000  000b82f3  2**0
+ 19 .comment      00000050  00000000  00000000  000b81e5  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00002314  00000000  00000000  000b8344  2**2
+ 20 .debug_frame  000022ec  00000000  00000000  000b8238  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -562,8 +562,8 @@ void lcd_send_string (char *str)
 
 0800042c <HAL_UARTEx_RxEventCallback>:
 
-    flag=1;
-}*/
+uint8_t flag=0;
+
 
 void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)//hat boşa cıktığında olması girecek fonksiyon
 {
@@ -596,15 +596,12 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)//hat b
  800045a:	2104      	movs	r1, #4
  800045c:	438a      	bics	r2, r1
  800045e:	601a      	str	r2, [r3, #0]
-
-
 		sizeval = Size;
  8000460:	1cbb      	adds	r3, r7, #2
  8000462:	881b      	ldrh	r3, [r3, #0]
  8000464:	b2da      	uxtb	r2, r3
  8000466:	4b10      	ldr	r3, [pc, #64]	; (80004a8 <HAL_UARTEx_RxEventCallback+0x7c>)
  8000468:	701a      	strb	r2, [r3, #0]
-
 		for (int i = sizeval; i < BUFFSIZE; i++)
  800046a:	4b0f      	ldr	r3, [pc, #60]	; (80004a8 <HAL_UARTEx_RxEventCallback+0x7c>)
  800046c:	781b      	ldrb	r3, [r3, #0]
@@ -625,13 +622,10 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)//hat b
  8000484:	2b13      	cmp	r3, #19
  8000486:	ddf4      	ble.n	8000472 <HAL_UARTEx_RxEventCallback+0x46>
 		}
-
-		flag = 1;
+		flag = 1; //haberleşmenin bittiği ve gösteren flag
  8000488:	4b08      	ldr	r3, [pc, #32]	; (80004ac <HAL_UARTEx_RxEventCallback+0x80>)
  800048a:	2201      	movs	r2, #1
  800048c:	701a      	strb	r2, [r3, #0]
-
-
 	}
 }
  800048e:	46c0      	nop			; (mov r8, r8)
