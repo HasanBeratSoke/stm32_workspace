@@ -9,5 +9,5 @@
  ## [UART & HERCULES](https://github.com/HasanBeratSoke/stm32_workspace/tree/main/uart_hercules) 
 * Receiving one string value from hercule and comparing if it is same as the defined string value in the stm32 code. Using UART communication protocol.
  ---
- ## [UART & I2C 16X2 LCD](https://github.com/HasanBeratSoke/stm32_workspace/tree/main/uart_hercules) 
+ ## [UART & I2C 16X2 LCD](https://github.com/HasanBeratSoke/stm32_workspace/tree/main/hercules-lcd) 
 * The values printed on lcd screen from hercules console using UART_DMA Idle line techniqe on stm32f0. 
