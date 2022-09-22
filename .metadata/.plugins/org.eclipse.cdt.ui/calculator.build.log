@@ -1,0 +1,10 @@
+16:45:09 **** Incremental Build of configuration Debug for project calculator ****
+make -j12 all 
+arm-none-eabi-size   calculator.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15136	     36	   1964	  17136	   42f0	calculator.elf
+Finished building: default.size.stdout
+ 
+
+16:45:09 Build Finished. 0 errors, 0 warnings. (took 311ms)
+

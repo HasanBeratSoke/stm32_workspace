@@ -93,6 +93,15 @@ void print_lcd(){
 	lcd_put_cur(0, 0);
 	lcd_send_string(Rx_data);
 	HAL_Delay(500);
+
+/*	for ( int i = 0; i < 2; i++) {
+		for (int j = 0; j < 16; j++) {
+			lcd_put_cur(i, j);
+			lcd_send_string(Rx_data[j]);
+			HAL_Delay(100);
+		}
+	}
+*/
 }
 
 
