@@ -18,10 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "i2c-lcd.h"
-#include "stdlib.h"
-#include "math.h"
-#include "string.h"
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -48,20 +45,23 @@ UART_HandleTypeDef huart1;
 DMA_HandleTypeDef hdma_usart1_rx;
 DMA_HandleTypeDef hdma_usart1_tx;
 
-
-
 /* USER CODE BEGIN PV */
-#define SIZE 10
+#define SIZE 5
 int sizeval;
 float result = 0;
-int num1 = 0;
-int num2 = 0;
-int Rx_data[SIZE] = {0};
+double num1 = 0;
+float num2 = 0;
+char islem;
+char Rx_data[SIZE];
 uint8_t flag = 0;
 uint8_t flagnum1 = 0;
 uint8_t flagnum2 = 0;
-char num1arr[]="\nsayi1:";
-char num2arr[]="\nsayi2:";
+uint8_t count = 0;
+int resetcount = 25;
+char num1arr[]="num1:";
+char num2arr[]="num2:";
+char resultArr[]="result:";
+char islemArr[] = "islem:";
 
 
 /* USER CODE END PV */
@@ -90,8 +90,39 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)//hat b
 			Rx_data[i] = 0;
 		}
 		flag = 1; //haberleşmenin bittiği ve gösteren flag
+		count++;
+
+		if(count == 1)
+		{
+			lcd_put_cur(0, 0);
+			lcd_send_string("num2 giriniz");
+
+		}
+
+
 	}
 }
+
+/*void convertStrtoArr(string str)
+{
+
+}*/
+
+void printlcd(char numarr[])
+{
+	//lcd_clear();
+	lcd_put_cur(1, 0);
+	lcd_send_string(numarr);
+	HAL_Delay(500);
+	lcd_put_cur(1, strlen(numarr)+1);
+	lcd_send_string(Rx_data);
+	HAL_Delay(1000);
+	lcd_put_cur(1, 0);
+	lcd_send_string("                ");
+
+
+}
+
 
 /* USER CODE END 0 */
 
@@ -128,24 +159,115 @@ int main(void)
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
   lcd_init();
-  HAL_UART_Transmit_DMA(&huart1, num1arr, sizeof(num1arr));
+  lcd_clear();
+  lcd_put_cur(0, 0);
+  lcd_send_string("num1 giriniz");
 
+
+  HAL_UARTEx_ReceiveToIdle_DMA(&huart1, Rx_data, SIZE);
+  __HAL_DMA_DISABLE_IT(&hdma_usart1_rx, DMA_IT_HT);
+
+ /* if(resetcount <=0)
+  {
+	HAL_NVIC_SystemReset();
+	resetcount = 20;
+  }*/
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  HAL_UARTEx_ReceiveToIdle_DMA(&huart1, Rx_data, SIZE);
-	 __HAL_DMA_DISABLE_IT(&hdma_usart1_rx, DMA_IT_HT);
 
-	 if(flagnum1 == 1)
+
+	 if(1 == count && flag == 1 )
 	 {
-		 num1 = Rx_data;
-		 flagnum1  = 0;
+			 flag  = 0;
+			 num1 = atoi(Rx_data); //strtof(Rx_data, NULL); //char to float
+			 printlcd(num1arr);
+
 	 }
 
-	 HAL_UART_Transmit_DMA(&huart1, num2arr, sizeof(num2arr));
+	 else if(2 == count)
+	 {
+		 if(num2 !=0){
+			lcd_put_cur(0, 0);
+			lcd_send_string("yapilacak islem ?");
+			lcd_put_cur(1, 0);
+			lcd_send_string("                  ");
+		 }else
+		 {
+			 flagnum1 = 0;
+			 //lcd_clear();
+			 num2 = atoi(Rx_data); //atoff
+			 //lcd_send_string(num2arr);
+			 printlcd(num2arr);
+			 HAL_Delay(1000);
+			 lcd_clear();
+		 }
+
+
+	 }
+
+	 else if(3 == count)
+	 {
+		 flagnum2 == 1;
+		 count=1;
+		 lcd_clear();
+		 islem = Rx_data[0];
+		 printlcd(islemArr);
+
+		 switch (Rx_data[0])
+		 {
+			case '+':
+				result = num1+num2;
+				sprintf(Rx_data, "%f", result);
+				printlcd(resultArr);
+				break;
+			case '-':
+				result = num1-num2;
+				sprintf(Rx_data, "%f", result);
+				printlcd(resultArr);
+				break;
+			case '/':
+				result = num1/num2;
+				sprintf(Rx_data, "%f", result); //make the number into string using sprintf function
+				printlcd(resultArr);
+				break;
+			case '*':
+				result = num1*num2;
+				sprintf(Rx_data, "%f", result);
+				printlcd(resultArr);
+				break;
+			default:
+				break;
+		}
+	}
+	 else
+	{
+
+		HAL_Delay(500);
+		resetcount = resetcount-1;
+		if(resetcount <=0)
+		{
+
+			flagnum2 == 0;
+			lcd_clear();
+			lcd_put_cur(0, 0);
+			lcd_send_string("num1 giriniz");
+			count = 0;
+			num1, num2 = 0;
+
+			resetcount = 25;
+		}
+
+		 //HAL_IWDG_Refresh(&hiwdg);
+
+	}
+
+
+
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

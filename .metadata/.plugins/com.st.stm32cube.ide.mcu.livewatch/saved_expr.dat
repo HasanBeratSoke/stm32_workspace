@@ -1,5 +1,11 @@
 Rx_data
 flag
-w_data
-a
 sizeval
+num1
+num2
+count
+result
+resetcount
+status
+line1
+line2

@@ -61,7 +61,7 @@ main-build: calculator.elf secondary-outputs
 
 # Tool invocations
 calculator.elf calculator.map: $(OBJS) $(USER_OBJS) C:\Users\hasan\Desktop\stm32_workspace\calculator\STM32F051R8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "calculator.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\calculator\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="calculator.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+	arm-none-eabi-gcc -o "calculator.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"C:\Users\hasan\Desktop\stm32_workspace\calculator\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="calculator.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
