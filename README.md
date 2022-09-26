@@ -1,5 +1,5 @@
 
- ---
+ 
  ## [LED SHINE WITH BUTTON](https://github.com/HasanBeratSoke/stm32_workspace/tree/main/TIMER) 
 * Using PWM and timer change the brightness of the led by button.
  ---
@@ -17,3 +17,6 @@
  ---
  ## [UART & I2C 16X2 LCD](https://github.com/HasanBeratSoke/stm32_workspace/tree/main/hercules-lcd) 
 * The values printed on lcd screen from hercules console using UART_DMA Idle line techniqe on stm32f0. 
+ ---
+ ## [CALCULATOR](https://github.com/HasanBeratSoke/stm32_workspace/tree/main/calculator) 
+* Basic calculator using uart communication protocol and lcd screen.
