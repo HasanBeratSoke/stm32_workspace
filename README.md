@@ -20,3 +20,7 @@
  ---
  ## [CALCULATOR](https://github.com/HasanBeratSoke/stm32_workspace/tree/main/calculator) 
 * Basic calculator using uart communication protocol and lcd screen.
+ ---
+ ## [RTC](https://github.com/HasanBeratSoke/stm32_workspace/tree/main/RTC) 
+* 
+
